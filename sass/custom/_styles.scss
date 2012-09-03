@@ -1,0 +1,167 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+$default-padding-mobile: 5px 0 5px 0 !important;
+$default-padding-desktop: 27.5px 0 15px 0 !important;
+
+// Fonts
+.heading {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sans { font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.serif { font-family: 'Palatino', 'Palatino Linotype', 'Georgia', serif; }
+
+p, blockquote, ul, ol {
+    margin-bottom: 0.6em;
+}
+
+blockquote {
+	font-size: 100%
+}
+
+ul, ol {
+  margin-left: 2em !important;
+}
+
+html {
+  background: $page-bg;
+}
+
+body {
+  width: 80%;
+  @media only screen and (max-width: 768px) {
+    width: 95%;
+  }
+}
+body > div, body > div > div {                    // main blog post area
+    background: $main-bg;
+    border: none;
+}
+body > header {
+  padding: $default-padding-desktop;
+  border-bottom: 1px solid #53565a;
+  @media only screen and (max-width: 768px) {
+    padding: $default-padding-mobile;
+  }
+}
+body > header > h1 {
+  font-size: 1em;
+  float: left;
+}
+body > nav {
+  float: right;
+  background: $nav-bg;
+  border: none;
+}
+body > footer {
+  background: none;
+  border-top: 1px solid #53565a;
+  padding: 5px 0 5px 0 !important;  // !important needed for IE
+  margin: 0 auto;
+  border-radius: 0;
+  text-shadow: none;
+}
+
+nav ul {
+  text-align: right;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul > li {
+  display: inline;
+  font-size: 0.8em;
+}
+
+nav ul > li::after {
+  content: " - ";
+}
+
+nav ul > li:last-child::after {
+  content: "";
+}
+
+article h2, h3, h4, h5, h6 {
+  padding: 0;
+  background: none;
+}
+
+article header { 
+  margin-bottom: 0.6em;
+  padding: 0;
+}
+
+article header p.meta {
+  position: relative;
+}
+
+article img, article video, article .flash-video {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+
+  padding: 0.5em;
+  border: 1px solid #DDD;
+}
+
+#content {
+  margin: 0 !important;
+}
+
+#content .blog-index article {
+  padding: $default-padding-desktop;
+  @media only screen and (max-width: 768px) {
+    padding: $default-padding-mobile;
+  }
+}
+
+h1.entry-title {
+  font-size: 1.6em !important;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.0em;
+}
+
+h5 {
+  font-size: 0.8em;
+}
+
+h6 {
+  font-size: 0.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-bottom: 0.6em;
+}
+
+body #content > article, 
+body #content > div > article, 
+body #content > div > section {
+  padding: 0 !important;              // !important needed for IE
+  @media only screen and (max-width: 768px) {
+    padding: $default-padding-mobile;
+  }
+}
