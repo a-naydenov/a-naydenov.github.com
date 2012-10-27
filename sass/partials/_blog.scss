@@ -9,10 +9,7 @@ article {
     background: $img-border bottom left repeat-x;
     h1 {
       margin: 0;
-      a { text-decoration: none;
-          border-bottom: 1px dotted #d3dfee;
-        &:hover { border-bottom: 1px solid #9BB5F0; } 
-        &:active { background-position: 0px, 2px; }}
+      a { text-decoration: none; }
     }
     p {
       font-size: .9em;
@@ -69,6 +66,7 @@ article {
     }
   }
   > footer {
+    text-decoration: none;
     padding-bottom: 2.5em;
     margin-top: 2em;
     @extend .sans;
@@ -89,26 +87,34 @@ article + article {
     background: $img-border top left repeat-x;
   }
 }
+.prev, .next { 
+  color: #DDD;
+  font-family: proxima-nova-1;
+  font-size: 0.7em;
+  margin-top: -15px;
+  position: absolute;
+}
+.prev { margin-left: 9px; }
+.next { right: 0; margin-right: 70px; }
+
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
-    a { color: inherit;
+    a { text-decoration: none;
         border-bottom: 1px dotted #d3dfee;
-    &:hover { color: $link-color-hover;
-              border-bottom: 1px solid #9BB5F0; } 
-    &:active { background-position: 0px, 2px; }}
-}
+        color: inherit;
+    &:hover { color: $link-color-hover;}}
   }
+}
   a[rel=full-article] {
     background: darken($main-bg, 5);
     display: inline-block;
     padding: .4em .8em;
     margin-right: .5em;
     text-decoration: none;
-    border-bottom: 1px dotted #d3dfee;
     color: mix($text-color, $text-color-light);
     @extend .serif;
     @include transition(background-color .5s);
@@ -116,15 +122,12 @@ article + article {
       background: $link-color-hover;
       text-shadow: none;
       color: $main-bg;
-      border-bottom: 1px solid #9BB5F0;
     }
-    &:active { background-position: 0px, 2px; }}
- /* */
+}
   footer {
     @extend .sans;
     margin-top: 1em;
   }
-/*}*/
 
 .separator {
   content: "\2022 ";
@@ -141,12 +144,9 @@ article + article {
   a {
     text-decoration: none;
     color: $text-color-light;
-    border-bottom: 1px dotted #d3dfee;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
-    &:hover { color: $link-color-hover;
-              border-bottom: 1px solid #9BB5F0; }
-    &:active { background-position: 0px, 2px; }
+    &:hover { color: $link-color-hover;}
     &[href*=archive] {
       &:before, &:after { content: '\2014'; padding: 0 .3em; }
     }
