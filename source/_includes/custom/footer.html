@@ -1,4 +1,10 @@
 <div style="margin: 0px 22px 0px 22px;text-align:center;padding: 8px 0"><div style="float:left;text-align:left">
-<a href="/atom.xml" rel="RSS" title="Подпишись на обновления">RSS</a></div><div style="width:33%;float:left;text-align:right;"></div>
-<a href="mailto:a@naydenov.tk" class="mail" title="пишите">a@naydenov.tk</a>
+<form action="{{ site.simple_search }}" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<!-- <a href="/atom.xml" rel="RSS" title="Подпишись на обновления">RSS</a></div><div style="width:33%;float:left;text-align:right;"> --></div>
+<a href="mailto:a@naydenov.tk" class="mail" el="subscribe-email" title="пишите">a@naydenov.tk</a>
 <a href="#" class="up" title="наверх">up</a>
