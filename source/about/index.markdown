@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about"
+title: "Обо мне"
 comments: false
 sharing: false
 footer: false

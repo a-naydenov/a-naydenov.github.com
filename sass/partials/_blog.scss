@@ -88,14 +88,13 @@ article + article {
   }
 }
 .prev, .next { 
-  color: #DDD;
-  font-family: proxima-nova-1;
-  font-size: 0.7em;
-  margin-top: -15px;
+  color: #CFCFCF;
+  font-size: 1em;
+  margin-top: -10px;
   position: absolute;
 }
-.prev { margin-left: 9px; }
-.next { right: 0; margin-right: 70px; }
+.prev { margin-left: 12px; }
+.next { right: 0; margin-right: 12px; }
 
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
@@ -103,9 +102,7 @@ article + article {
   article header { background: none; padding-bottom: 0; }
   article h1 {
     font-size: 2.2em;
-    a { text-decoration: none;
-        border-bottom: 1px dotted #d3dfee;
-        color: inherit;
+    a {color: inherit;
     &:hover { color: $link-color-hover;}}
   }
 }

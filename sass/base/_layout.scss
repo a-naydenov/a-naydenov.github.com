@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 1000px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -105,7 +105,7 @@ aside.sidebar {
 
 .flex-content { max-width: 100%; height: auto; }
 
-.basic-alignment {
+.basic-alignment {margin-top: 10px;
   &.left { float: left; margin-right: 1.5em; }
   &.right { float: right; margin-left: 1.5em; }
   &.center { display:block; margin: 0 auto 1.5em; }

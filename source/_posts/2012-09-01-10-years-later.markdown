@@ -3,6 +3,7 @@ layout: post
 title: "10 years later"
 date: 2012-09-01 03:10
 comments: false
+sharing: false
 categories: Life
 ---
 Или Как я вижy своё будущее в 10-летней перспективе.
