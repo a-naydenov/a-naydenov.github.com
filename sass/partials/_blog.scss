@@ -88,13 +88,13 @@ article + article {
   }
 }
 .prev, .next { 
-  color: #CFCFCF;
+  color: #C0C0C0;
   font-size: 1em;
   margin-top: -10px;
   position: absolute;
 }
-.prev { margin-left: 12px; }
-.next { right: 0; margin-right: 12px; }
+.prev { margin-left: 10px; }
+.next { right: 0; margin-right: 10px; }
 
 #content .blog-index {
   padding: { top: 0; bottom: 0; }

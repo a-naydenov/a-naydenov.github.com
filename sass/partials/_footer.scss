@@ -16,7 +16,7 @@ body > footer {
     @include link-colors($footer-link-color, $footer-link-color-hover, $visited: $footer-link-color);
   }
   .up {
-    background: image-url('up1.png') no-repeat;
+    background: image-url('up.png') no-repeat;
     width: 26px;
     height: 26px;
     display: inline-block;
@@ -24,15 +24,21 @@ body > footer {
     margin-left: 5px;
     text-indent: -9999px;
     position: relative;
-    float: right;
-    @include opacity(0.7);
+    float: left;
+    @include opacity(0.5);
     @include transition(0.3s all linear);
     &:hover {
       @include opacity(1);
     }
   }
-  .mail {
-  cursor: image-url('email.gif'), pointer;
+ .search {
+    margin-right: 5px;
+    float: right;
+    @include opacity(0.8);
+    @include transition(0.3s all linear);
+    &:hover {
+      @include opacity(1);
+    }
   }
   p:last-child { margin-bottom: 0; }
 }
