@@ -49,12 +49,12 @@ default_asides:
 # page_asides:
 
 #linklog
-permalink_label: "&#9733;"
-permalink_label_feed: "&#9733;"
+permalink_label: "&#9875;"
+permalink_label_feed: "&#9875;"
 linklog_marker:
 linklog_marker_position:
 linklog_marker_position_feed:
-standard_post_marker: "&#9733; "
+standard_post_marker: "&#9875;"
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
