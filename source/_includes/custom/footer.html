@@ -1,7 +1,17 @@
 <a href="#" class="up" title="наверх">up</a>
-<form action="{{ site.simple_search }}" method="get" class="search">
+<!-- <form action="{{ site.simple_search }}" method="get" class="search">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
     <input class="search" type="text" name="q" results="0"  placeholder="Оно вам надо!?"/>
   </fieldset>
+</form> -->
+
+
+
+<form id="searchbox" action="{{ site.simple_search }}" method="get">
+	<fieldset role="search">
+	<input	
+     type="search" name="q" value="site:{{ site.url | shorthand_url }}"/>
+<!--     <input class="search" type="text" name="q" results="0"  placeholder="Оно вам надо!?"/>
+ -->  	</fieldset>
 </form>

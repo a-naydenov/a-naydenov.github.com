@@ -18,7 +18,7 @@
     a {
       @include hover-link;
       color: inherit;
-      &:hover { color: $link-color-hover; }
+      &:hover { text-decoration:none; color: #D69F11; }
       font-weight: normal;
       display: inline-block;
     }

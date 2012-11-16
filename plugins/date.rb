@@ -32,7 +32,7 @@ module Octopress
     # В _config.yml должно быть задано: date_format: ordinal 
     def ordinalize(date)
     # Задаем наш формат выдачи даты    
-    format_date(date, "%a, %e %B %Y") # ПЯТНИЦА, 13 ИЮЛЯ 2012
+    format_date(date, "%a, %e %b %Y") # ПЯТНИЦА, 13 ИЮЛЯ 2012
     end
 
     # Returns an ordinal number. 13 -> 13th, 21 -> 21st etc.

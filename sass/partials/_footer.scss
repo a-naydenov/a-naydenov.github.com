@@ -31,7 +31,7 @@ body > footer {
       @include opacity(1);
     }
   }
- .search {
+/* .search {
     margin-right: 5px;
     float: right;
     @include opacity(0.8);
@@ -39,6 +39,78 @@ body > footer {
     &:hover {
       @include opacity(1);
     }
-  }
+  }*/
   p:last-child { margin-bottom: 0; }
+}
+
+#searchbox input[type=search] {
+  width: 15px;
+  padding-left: 10px;
+  margin-right: 5px;
+  float: right;
+  color: transparent;
+  cursor: pointer;
+}
+#searchbox input[type=search]:hover {
+  background-color: #fff;
+}
+#searchbox input[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+#searchbox input:-moz-placeholder {
+  color: transparent;
+}
+#searchbox input::-webkit-input-placeholder {
+  color: transparent;
+}
+/* reset webkit search input browser style */
+input {
+  outline: none;
+}
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none; /* remove the search and cancel icon */
+}
+
+/* search input field */
+input[type=search] {
+  background: #ededed image-url('search-icon.png') no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+input[type=search]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #6dcff6;
+  
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+input:-moz-placeholder {
+  color: #999;
+}
+input::-webkit-input-placeholder {
+  color: #999;
 }

@@ -31,6 +31,15 @@ article {
     padding-top: 0.8em;
     background: $img-border top left repeat-x;
   }
+  .entry-content {
+    a { border-bottom: 1px solid #C8C8C8; color: $text-color;
+    &:hover { color: $text-color-hover; border-bottom: 3px solid #D69F11;
+      -moz-transition: all linear 0.2s;
+      -webkit-transition: all linear 0.2s;
+      -o-transition: all linear 0.2s;
+      transition: all linear 0.2s;}
+  }
+}
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
   h2:first-child, header + h2 { background: none; }
   .feature {
@@ -93,8 +102,8 @@ article + article {
   margin-top: -10px;
   position: absolute;
 }
-.prev { margin-left: 10px; }
-.next { right: 0; margin-right: 10px; }
+.prev { margin-left: 0.5em; }
+.next { right: 0; margin-right: 0.5em; }
 
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
@@ -103,7 +112,7 @@ article + article {
   article h1 {
     font-size: 2.2em;
     a {color: inherit;
-    &:hover { color: $link-color-hover;}}
+    &:hover { color: #D69F11; }}
   }
 }
   a[rel=full-article] {
@@ -116,10 +125,17 @@ article + article {
     @extend .serif;
     @include transition(background-color .5s);
     &:hover {
-      background: $link-color-hover;
+      background: #D69F11;
       text-shadow: none;
       color: $main-bg;
     }
+}
+
+a.category, a.basic-alignment {
+    text-decoration: none;
+    color: $text-color;
+    border-bottom: 1px solid #C8C8C8;
+    &:hover { color: $text-color-hover; border-bottom: 2px solid #D69F11; -moz-transition: all linear 0.2s; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s;}
 }
   footer {
     @extend .sans;
@@ -140,12 +156,13 @@ article + article {
   padding: {top: 1.5em; bottom: 1.5em;}
   a {
     text-decoration: none;
-    color: $text-color-light;
+    color: $text-color;
+    border-bottom: 1px solid #C8C8C8;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
-    &:hover { color: $link-color-hover;}
+    &:hover {   color: $text-color-hover; border-bottom: 3px solid #D69F11; -moz-transition: all linear 0.2s; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s;}
     &[href*=archive] {
-      &:before, &:after { content: '\2014'; padding: 0 .3em; }
+      &:before, &:after { content: '\2014'; padding: 0 .3em;}
     }
   }
 }
