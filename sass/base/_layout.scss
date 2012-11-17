@@ -48,7 +48,7 @@ body {
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
-  border-top: 10px solid #D69F11;
+  border-top: 10px solid $link-border-bottom-hover;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
     @extend .group;
     padding-left: $pad-min;
@@ -196,5 +196,5 @@ body.sidebar-footer {
 ::-webkit-scrollbar-track{background:#000}
 ::-webkit-scrollbar-track{background:#D7D7D7}
 ::-webkit-scrollbar-thumb{background:#999} 
-::-webkit-scrollbar-thumb:hover{background:#D69F11}
-::-webkit-scrollbar-thumb:active{background:#E5AA11}
+::-webkit-scrollbar-thumb:hover{background: $link-border-bottom-hover}
+::-webkit-scrollbar-thumb:active{background:#C16A00}

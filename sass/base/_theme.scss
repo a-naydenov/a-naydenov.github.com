@@ -6,6 +6,8 @@ $link-color: darken(#222, 6) !default;
 $link-color-hover: lighten(#222, 0) !default;
 $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
+$link-border-bottom: #C8C8C8 !default;
+$link-border-bottom-hover: #FF8C00 !default;
 
 // Main Section Colors
 $main-bg: #f8f8f8 !default;
@@ -17,9 +19,11 @@ $header-border: lighten($header-bg, 15) !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #aaa !default;
 
+
 $text-color: #444 !default;
 $text-color-light: #aaa !default;
-$text-color-hover: #222 !default;
+$text-color-hover: #222 !default; // link-color-hover 
+
 $type-border: #ddd !default;
 
 /* Navigation */
