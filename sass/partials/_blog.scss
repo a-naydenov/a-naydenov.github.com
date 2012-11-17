@@ -34,9 +34,6 @@ article {
   .entry-content {
     a { border-bottom: 1px solid #C8C8C8; color: $text-color;
     &:hover { color: $text-color-hover; border-bottom: 3px solid #D69F11;
-      -moz-transition: all linear 0.2s;
-      -webkit-transition: all linear 0.2s;
-      -o-transition: all linear 0.2s;
       transition: all linear 0.2s;}
   }
 }
@@ -135,7 +132,7 @@ a.category, a.basic-alignment {
     text-decoration: none;
     color: $text-color;
     border-bottom: 1px solid #C8C8C8;
-    &:hover { color: $text-color-hover; border-bottom: 2px solid #D69F11; -moz-transition: all linear 0.2s; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s;}
+    &:hover { color: $text-color-hover; border-bottom: 2px solid #D69F11; transition: all linear 0.2s;}
 }
   footer {
     @extend .sans;
@@ -160,7 +157,7 @@ a.category, a.basic-alignment {
     border-bottom: 1px solid #C8C8C8;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
-    &:hover {   color: $text-color-hover; border-bottom: 3px solid #D69F11; -moz-transition: all linear 0.2s; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s;}
+    &:hover {   color: $text-color-hover; border-bottom: 3px solid #D69F11; transition: all linear 0.2s;}
     &[href*=archive] {
       &:before, &:after { content: '\2014'; padding: 0 .3em;}
     }

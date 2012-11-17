@@ -1,8 +1,8 @@
 .sharing {
-  opacity: 0.7;
-  -webkit-transition: opacity 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
-  -moz-transition: opacity 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
-  -o-transition: opacity 0.15s cubic-bezier(0.54, 0.24, 0.35, 0.68);
+	opacity:0.7;
+	display: inline-block;
+	transition:opacity 0.1s ease-in-out;
+  &:hover{opacity:1;}
   p.meta + & {
     padding: { top: 1em; left: 0; }
     background: $img-border top left repeat-x;
