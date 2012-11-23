@@ -1,25 +1,11 @@
-<a href="#" class="up" title="наверх">up</a>
-<!-- <form action="{{ site.simple_search }}" method="get" class="search">
+<div id="left"><a href="#" class="up" title="наверх">up</a></div>
+<div id="center"> 
+</div>
+<div id="right">
+  <form action="{{ site.simple_search }}" method="get">
   <fieldset role="search">
     <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-    <input class="search" type="text" name="q" results="0"  placeholder="Оно вам надо!?"/>
+    <input class="search" type="text" name="q" results="0" placeholder=""/>
   </fieldset>
-</form> -->
-
-
-
-<!-- <form id="searchbox" action="{{ site.simple_search }}" method="get">
-	<fieldset role="search">
-	<input	
-     type="search" name="q" value="site:{{ site.url | shorthand_url }}"/>
-     <input class="search" type="text" name="q" results="0"  placeholder="Оно вам надо!?"/>
-   	</fieldset>
-</form> -->
-
-<form class="search"  method="get">
-	  <fieldset role="search">
-    <label for="search-box">Search:</label>
-        <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
-    <input id="search-box" type="text" name="q" results="0"  placeholder=""/>
-      </fieldset>
-</form>
+  </form>
+</div>
