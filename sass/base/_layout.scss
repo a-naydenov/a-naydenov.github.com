@@ -207,9 +207,27 @@ background-image:linear-gradient(top, rgba(231, 238, 244, 0), #e7eef4);
 background-repeat:repeat-x;
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e7eef4', endColorstr='#ffe7eef4', GradientType=0)
 }
-::-webkit-scrollbar{width:10px;height:10px}.highlight
+/*::-webkit-scrollbar{width:10px;height:10px}.highlight
 ::-webkit-scrollbar-track{background:#000}
 ::-webkit-scrollbar-track{background:#D7D7D7}
 ::-webkit-scrollbar-thumb{background:#999} 
 ::-webkit-scrollbar-thumb:hover{background: $link-border-bottom-hover}
 ::-webkit-scrollbar-thumb:active{background:#C16A00}
+*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    height: 0px;
+}
+::-webkit-scrollbar-track-piece {
+    background-color:transparent;
+    -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #c8c8c8;
+    -webkit-border-radius: 6px;
+  }
