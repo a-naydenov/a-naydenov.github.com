@@ -43,13 +43,25 @@ $header-padding-bottom: 1.5em !default;
   }
 }
 
+.stripe {
+  position: relative;
+  height: 15px;
+  top: -5px;
+  border-radius: 5px;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0,255,102,1) 0%, rgba(69,246,142,1) 30%, rgba(165,233,197,0) 72%, rgba(220,225,229,0) 96%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,255,102,1)), color-stop(30%,rgba(69,246,142,1)), color-stop(72%,rgba(165,233,197,0)), color-stop(96%,rgba(220,225,229,0)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,255,102,1) 0%,rgba(69,246,142,1) 30%,rgba(165,233,197,0) 72%,rgba(220,225,229,0) 96%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(0,255,102,1) 0%,rgba(69,246,142,1) 30%,rgba(165,233,197,0) 72%,rgba(220,225,229,0) 96%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0,255,102,1) 0%,rgba(69,246,142,1) 30%,rgba(165,233,197,0) 72%,rgba(220,225,229,0) 96%);
+  background: radial-gradient(ellipse at center, rgba(0,255,102,1) 0%,rgba(69,246,142,1) 30%,rgba(165,233,197,0) 72%,rgba(220,225,229,0) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff66', endColorstr='#00dce1e5',GradientType=1 );
+}
 body {
   -webkit-text-size-adjust: none;
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
-  border-top: 10px solid $link-border-bottom-hover;
-  padding-bottom:50px;
+  padding-bottom: 25px;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
     @extend .group;
     padding-left: $pad-min;
@@ -228,6 +240,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e7eef4', end
 }
 ::-webkit-scrollbar-thumb:vertical {
     height: 50px;
-    background-color: #c8c8c8;
-    -webkit-border-radius: 6px;
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,255,102,1)), color-stop(30%,rgba(69,246,142,1)), color-stop(72%,rgba(165,233,197,0)), color-stop(96%,rgba(220,225,229,0)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,255,102,1) 0%,rgba(69,246,142,1) 30%,rgba(165,233,197,0) 72%,rgba(220,225,229,0) 96%);
+      -webkit-border-radius: 6px;
   }
