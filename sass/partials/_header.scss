@@ -1,6 +1,7 @@
 body > header {
   background: $header-bg;
   h1 {
+    font-size: 1em;
     display: inline-block;
     margin: 0;
     a, a:visited, a:hover {
@@ -15,7 +16,16 @@ body > header {
     color: $subtitle-color;
     font-weight: normal;
   }
-  a#twitter {
-    vertical-align: super; 
-  }
+    .title{
+    float: left;
+    display:inline;
+}
+  .title div {
+    margin-top:-0.4em;
+    float: right;
+    opacity: 0.5; 
+}
+  .title div:hover {
+    opacity: 1;
+}
 }

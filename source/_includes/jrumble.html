@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://raw.github.com/jackrugile/jRumble/master/jquery.jrumble.min.js"></script> 
+<script>
+$(function(){
+	$('#twitterjumble').jrumble({
+		speed: 50
+	});
+	$('#twitter').hover(function(){
+		$(this).trigger('startRumble');
+	}, function(){
+		$(this).trigger('stopRumble');
+	});
+});
+</script>
+<script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $.stratus({
+      color: '0F6',
+      links: 'http://soundcloud.com/against_sleep/sets/the-top-tracks-2012'
+    });
+  });
+</script>
