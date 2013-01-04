@@ -210,9 +210,9 @@ position:fixed;
 left:0;
 bottom:0;
 width:100%;
-height:50px;
+height:65px;
 background-image:-moz-linear-gradient(top, rgba(231, 238, 244, 0), #e7eef4);
-background-image:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(231, 238, 244, 0)), to(#e7eef4));
+background-image:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(231, 238, 244, 0.1)), to(#e7eef4));
 background-image:-webkit-linear-gradient(top, rgba(231, 238, 244, 0), #e7eef4);
 background-image:-o-linear-gradient(top, rgba(231, 238, 244, 0), #e7eef4);
 background-image:linear-gradient(top, rgba(231, 238, 244, 0), #e7eef4);
@@ -235,7 +235,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e7eef4', end
     height: 0px;
 }
 ::-webkit-scrollbar-track-piece {
-    background-color:transparent;
+    background-color:white;
     -webkit-border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:vertical {

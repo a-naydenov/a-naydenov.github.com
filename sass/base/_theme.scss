@@ -6,7 +6,7 @@ $link-color: darken(#222, 6) !default;
 $link-color-hover: lighten(#222, 0) !default;
 $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
-$link-border-bottom: #D9D9D9 !default;
+$link-border-bottom: #C7C7C7 !default;
 $link-border-bottom-hover: #0F6 !default;
 
 // Main Section Colors
