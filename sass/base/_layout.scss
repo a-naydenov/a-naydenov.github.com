@@ -240,7 +240,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00e7eef4', end
 }
 ::-webkit-scrollbar-thumb:vertical {
     height: 50px;
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,255,102,1)), color-stop(30%,rgba(69,246,142,1)), color-stop(72%,rgba(165,233,197,0)), color-stop(96%,rgba(220,225,229,0)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,255,102,1) 0%,rgba(69,246,142,1) 30%,rgba(165,233,197,0) 72%,rgba(220,225,229,0) 96%);
-      -webkit-border-radius: 6px;
+  background: #D7D7D7;
+  -webkit-border-radius: 6px;
   }

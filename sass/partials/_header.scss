@@ -15,4 +15,7 @@ body > header {
     color: $subtitle-color;
     font-weight: normal;
   }
+  a#twitter {
+    vertical-align: super; 
+  }
 }
