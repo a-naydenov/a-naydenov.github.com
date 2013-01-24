@@ -5,7 +5,7 @@ title: "Обо мне"
 
 <div class="line">
   <div class="me" style="margin-left: 1em" ></div>
-    <p style="padding-top: 1.4em">Мне 19, живу Иркутске, работаю в <a href="http://sei.irk.ru/">ИСЕМ СО РАН</a>. Интересуюсь вебом и типографикой. Крайне неравнодушен к музыке.</p>
+    <p style="padding-top: 1.4em">Мне 19, живу Иркутске, работаю в <a href="http://sei.irk.ru/">ИСЕМ СО РАН</a>. Интересуюсь вебом. Крайне неравнодушен к музыке.</p>
 </div>
 <div class="line">
 	    <p style="padding-top: 1.4em"><p><a href="http://naydenov.tk/cv.html">>Резюме </a>

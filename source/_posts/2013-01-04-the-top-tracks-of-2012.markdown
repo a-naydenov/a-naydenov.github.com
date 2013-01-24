@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "♫ 1Топ треков 2012 года"
+title: "♫ Топ треков 2012 года"
 date: 2013-01-04 19:44
 comments: false
 description: компиляция треков, топ музыка, лучшие треки, 2012
@@ -22,8 +22,6 @@ categories:
 {% blockquote Steve Klabnik http://words.steveklabnik.com/how-do-you-find-the-time How do you find the time? %}
 Listen to awesome music while you work. I first discovered this while mowing my parent’s' lawn: when I listened to Metallica, that grass got cut way quicker. So, while I work, I listen to shitty pop music. I find that upbeat, happy music makes me upbeat and happy. I’m over being embarrassed about my love for Ke$ha. I just bob my head and write more code.
 {% endblockquote %} 
-i sad 
+<!-- 
 {% youtube otoSrFSPXtI %}
-ssdsd
-
-{% vimeo 33377362 %}
+{% vimeo 33377362 %} -->
