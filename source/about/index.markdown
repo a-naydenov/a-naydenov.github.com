@@ -8,7 +8,8 @@ title: "Обо мне"
     <p style="padding-top: 1.4em">Мне 19, живу Иркутске, работаю в <a href="http://sei.irk.ru/">ИСЕМ СО РАН</a>. Интересуюсь вебом. Крайне неравнодушен к музыке.</p>
 </div>
 <div class="line">
-	    <p style="padding-top: 1.4em"><p><a href="http://naydenov.tk/cv.html">>Резюме </a>
+	    <p style="padding-top: 1em"><p><a href="http://naydenov.tk/cv">Резюме </a>
+      <p style="padding-top: 1em"><p><a href="http://naydenov.tk/filmoteka">>Фильмотека </a>
 </div>
 <div class="line" style="padding-top: 3.4em;">
   <ul class="social" style="padding-left: 29%">

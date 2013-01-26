@@ -1,0 +1,988 @@
+/*
+* Kendo UI Web v2012.3.1114 (http://kendoui.com)
+* Copyright 2012 Telerik AD. All rights reserved.
+*
+* Kendo UI Web commercial licenses may be obtained at
+* https://www.kendoui.com/purchase/license-agreement/kendo-ui-web-commercial.aspx
+* If you do not own a commercial license, this file shall be governed by the
+* GNU General Public License (GPL) version 3.
+* For GPL requirements, please review: http://www.gnu.org/copyleft/gpl.html
+*/
+/*global*/
+
+#example{display:block}
+
+html {
+    font:75% 'Lucida Sans Unicode','Lucida Grande',arial,helvetica,sans-serif;
+    background:#e2e2e2 url("flowers-left.png") no-repeat fixed 0 400px;
+}
+body {
+	margin:0;
+	padding:0;
+}
+
+.offline-button:hover {
+    background: #e36028;
+}
+
+#example
+{
+	margin: 0px 0;
+	padding: 0px 0;
+	border: solid #999;
+	border-width: 1px 0;}
+
+:-webkit-any(body):after {
+content:"";
+display:block;
+visibility:hidden;
+height:0;
+font:0/0;
+-webkit-transform:translateZ(0)
+}
+.k-reset {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	text-decoration:none;
+	font-size:100%;
+	list-style:none
+}
+.k-button, .k-header, .k-grid-header, .k-pager-wrap, .k-textbox, .k-textbox:hover, .k-dropdown-wrap, .k-picker-wrap, .k-numeric-wrap, .k-autocomplete.k-state-hover, .k-dropdown-wrap.k-state-hover, .k-picker-wrap.k-state-hover, .k-numeric-wrap.k-state-hover, .k-draghandle {
+	background-repeat:repeat;
+	background-position:0 center
+}
+.k-state-highlight>.k-link {
+	color:inherit
+}
+.k-widget, .k-inline-block, .k-textbox>input, .k-input[type="text"], .k-input[type="number"], .k-textbox, .k-picker-wrap .k-input, .k-button, .k-draghandle {
+	font-size:100%;
+	font-family:inherit;
+	border-style:solid;
+	border-width:1px;
+	-webkit-appearance:none
+}
+ .k-widget {
+	line-height:normal;
+	outline:0
+}
+.k-button {
+	display:inline-block;
+	margin:0;
+	padding:2px 7px 2px;
+	font-family:inherit;
+	line-height:1.66em;
+	text-align:center;
+	cursor:pointer;
+	text-decoration:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box
+}
+.k-link {
+	cursor:pointer;
+	outline:0;
+	text-decoration:none
+}
+.k-state-disabled, .k-state-disabled .k-link, .k-state-disabled .k-picker-wrap .k-icon, .k-state-disabled .k-button, .k-state-disabled .k-draghandle, .k-state-disabled .k-slider .k-icon, .k-state-disabled .k-upload-button input {
+	cursor:default;
+	outline:0
+}
+.k-icon, .k-sprite, .k-editor-button .k-tool-icon {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	font-size:0;
+	line-height:0;
+	text-indent:-3333px;
+	text-align:center;
+	vertical-align:middle
+}
+.k-icon, .k-sprite {
+	background-color:transparent
+}
+.k-i-arrow-e {
+	background-position:0 -16px
+}
+.k-state-hover .k-i-arrow-e, .k-button:hover .k-i-arrow-e, .k-textbox:hover .k-i-arrow-e, .k-button:active .k-i-arrow-e {
+	background-position:-16px -16px
+}
+.k-i-arrow-s {
+	background-position:0 -32px
+}
+.k-state-hover .k-i-arrow-s, .k-button:hover .k-i-arrow-s, .k-textbox:hover .k-i-arrow-s, .k-button:active .k-i-arrow-s {
+	background-position:-16px -32px
+}
+.k-i-arrow-w {
+	background-position:0 -48px
+}
+.k-state-hover .k-i-arrow-w, .k-button:hover .k-i-arrow-w, .k-textbox:hover .k-i-arrow-w, .k-button:active .k-i-arrow-w {
+	background-position:-16px -48px
+}
+.k-i-seek-n {
+	background-position:0 -64px
+}
+.k-state-hover .k-i-seek-n, .k-button:hover .k-i-seek-n, .k-textbox:hover .k-i-seek-n, .k-button:active .k-i-seek-n {
+	background-position:-16px -64px
+}
+.k-i-seek-e {
+	background-position:0 -80px
+}
+.k-state-hover .k-i-seek-e, .k-button:hover .k-i-seek-e, .k-textbox:hover .k-i-seek-e, .k-button:active .k-i-seek-e {
+	background-position:-16px -80px
+}
+.k-i-seek-s {
+	background-position:0 -96px
+}
+.k-state-hover .k-i-seek-s, .k-button:hover .k-i-seek-s, .k-textbox:hover .k-i-seek-s, .k-button:active .k-i-seek-s {
+	background-position:-16px -96px
+}
+.k-i-seek-w {
+	background-position:0 -112px
+}
+.k-state-hover .k-i-seek-w, .k-button:hover .k-i-seek-w, .k-textbox:hover .k-i-seek-w, .k-button:active .k-i-seek-w {
+	background-position:-16px -112px
+}
+.k-si-arrow-n {
+	background-position:0 -129px
+}
+.k-state-hover .k-si-arrow-n, .k-button:hover .k-si-arrow-n, .k-textbox:hover .k-si-arrow-n, .k-button:active .k-si-arrow-n {
+	background-position:-16px -129px
+}
+.k-si-arrow-e {
+	background-position:0 -144px
+}
+.k-state-hover .k-si-arrow-e, .k-button:hover .k-si-arrow-e, .k-textbox:hover .k-si-arrow-e, .k-button:active .k-si-arrow-e {
+	background-position:-16px -144px
+}
+.k-si-arrow-s {
+	background-position:0 -159px
+}
+.k-state-hover .k-si-arrow-s, .k-button:hover .k-si-arrow-s, .k-textbox:hover .k-si-arrow-s, .k-button:active .k-si-arrow-s {
+	background-position:-16px -159px
+}
+.k-si-arrow-w {
+	background-position:0 -176px
+}
+.k-state-hover .k-si-arrow-w, .k-button:hover .k-si-arrow-w, .k-textbox:hover .k-si-arrow-w, .k-button:active .k-si-arrow-w {
+	background-position:-16px -176px
+}
+.k-i-arrowhead-n {
+	background-position:0 -256px
+}
+.k-state-hover .k-i-arrowhead-n, .k-button:hover .k-i-arrowhead-n, .k-textbox:hover .k-i-arrowhead-n, .k-button:active .k-i-arrowhead-n {
+	background-position:-16px -256px
+}
+.k-i-arrowhead-e {
+	background-position:0 -272px
+}
+.k-state-hover .k-i-arrowhead-e, .k-button:hover .k-i-arrowhead-e, .k-textbox:hover .k-i-arrowhead-e, .k-button:active .k-i-arrowhead-e {
+	background-position:-16px -272px
+}
+.k-i-arrowhead-s {
+	background-position:0 -288px
+}
+.k-state-hover .k-i-arrowhead-s, .k-button:hover .k-i-arrowhead-s, .k-textbox:hover .k-i-arrowhead-s, .k-button:active .k-i-arrowhead-s {
+	background-position:-16px -288px
+}
+.k-i-arrowhead-w {
+	background-position:0 -304px
+}
+.k-state-hover .k-i-arrowhead-w, .k-button:hover .k-i-arrowhead-w, .k-textbox:hover .k-i-arrowhead-w, .k-button:active .k-i-arrowhead-w {
+	background-position:-16px -304px
+}
+.k-i-expand, .k-plus, .k-plus-disabled {
+	background-position:0 -192px
+}
+.k-state-hover .k-i-expand, .k-state-hover .k-plus, .k-state-hover .k-plus-disabled, .k-button:hover .k-i-expand, .k-button:hover .k-plus, .k-button:hover .k-plus-disabled, .k-textbox:hover .k-i-expand, .k-textbox:hover .k-plus, .k-textbox:hover .k-plus-disabled, .k-button:active .k-i-expand, .k-button:active .k-plus, .k-button:active .k-plus-disabled {
+	background-position:-16px -192px
+}
+.k-i-expand-w, .k-rtl .k-i-expand, .k-rtl .k-plus, .k-rtl .k-plus-disabled {
+	background-position:0 -208px
+}
+.k-state-hover .k-i-expand-w, .k-state-hover .k-rtl .k-i-expand, .k-state-hover .k-rtl .k-plus, .k-state-hover .k-rtl .k-plus-disabled, .k-button:hover .k-i-expand-w, .k-button:hover .k-rtl .k-i-expand, .k-button:hover .k-rtl .k-plus, .k-button:hover .k-rtl .k-plus-disabled, .k-textbox:hover .k-i-expand-w, .k-textbox:hover .k-rtl .k-i-expand, .k-textbox:hover .k-rtl .k-plus, .k-textbox:hover .k-rtl .k-plus-disabled, .k-button:active .k-i-expand-w, .k-button:active .k-rtl .k-i-expand, .k-button:active .k-rtl .k-plus, .k-button:active .k-rtl .k-plus-disabled {
+	background-position:-16px -208px
+}
+.k-i-collapse, .k-minus, .k-minus-disabled {
+	background-position:0 -224px
+}
+.k-state-hover .k-i-collapse, .k-state-hover .k-minus, .k-state-hover .k-minus-disabled, .k-button:hover .k-i-collapse, .k-button:hover .k-minus, .k-button:hover .k-minus-disabled, .k-textbox:hover .k-i-collapse, .k-textbox:hover .k-minus, .k-textbox:hover .k-minus-disabled, .k-button:active .k-i-collapse, .k-button:active .k-minus, .k-button:active .k-minus-disabled {
+	background-position:-16px -224px
+}
+.k-i-collapse-w, .k-rtl .k-i-collapse, .k-rtl .k-minus, .k-rtl .k-minus-disabled {
+	background-position:0 -240px
+}
+.k-state-hover .k-i-collapse-w, .k-state-hover .k-rtl .k-i-collapse, .k-state-hover .k-rtl .k-minus, .k-state-hover .k-rtl .k-minus-disabled, .k-button:hover .k-i-collapse-w, .k-button:hover .k-rtl .k-i-collapse, .k-button:hover .k-rtl .k-minus, .k-button:hover .k-rtl .k-minus-disabled, .k-textbox:hover .k-i-collapse-w, .k-textbox:hover .k-rtl .k-i-collapse, .k-textbox:hover .k-rtl .k-minus, .k-textbox:hover .k-rtl .k-minus-disabled, .k-button:active .k-i-collapse-w, .k-button:active .k-rtl .k-i-collapse, .k-button:active .k-rtl .k-minus, .k-button:active .k-rtl .k-minus-disabled {
+	background-position:-16px -240px
+}
+.k-i-pencil, .k-edit {
+	background-position:-32px 0
+}
+.k-state-hover .k-i-pencil, .k-state-hover .k-edit, .k-button:hover .k-i-pencil, .k-button:hover .k-edit, .k-textbox:hover .k-i-pencil, .k-textbox:hover .k-edit, .k-button:active .k-i-pencil, .k-button:active .k-edit {
+	background-position:-48px 0
+}
+.k-i-close, .k-delete, .k-group-delete {
+	background-position:-32px -16px
+}
+.k-state-hover .k-i-close, .k-state-hover .k-delete, .k-state-hover .k-group-delete, .k-button:hover .k-i-close, .k-button:hover .k-delete, .k-button:hover .k-group-delete, .k-textbox:hover .k-i-close, .k-textbox:hover .k-delete, .k-textbox:hover .k-group-delete, .k-button:active .k-i-close, .k-button:active .k-delete, .k-button:active .k-group-delete {
+	background-position:-48px -16px
+}
+.k-i-tick, .k-insert, .k-update {
+	background-position:-32px -32px
+}
+.k-state-hover .k-i-tick, .k-state-hover .k-insert, .k-state-hover .k-update, .k-button:hover .k-i-tick, .k-button:hover .k-insert, .k-button:hover .k-update, .k-textbox:hover .k-i-tick, .k-textbox:hover .k-insert, .k-textbox:hover .k-update, .k-button:active .k-i-tick, .k-button:active .k-insert, .k-button:active .k-update {
+	background-position:-48px -32px
+}
+.k-i-cancel, .k-cancel, .k-denied {
+	background-position:-32px -48px
+}
+.k-state-hover .k-i-cancel, .k-state-hover .k-cancel, .k-state-hover .k-denied, .k-button:hover .k-i-cancel, .k-button:hover .k-cancel, .k-button:hover .k-denied, .k-textbox:hover .k-i-cancel, .k-textbox:hover .k-cancel, .k-textbox:hover .k-denied, .k-button:active .k-i-cancel, .k-button:active .k-cancel, .k-button:active .k-denied {
+	background-position:-48px -48px
+}
+.k-i-plus, .k-add {
+	background-position:-32px -64px
+}
+.k-state-hover .k-i-plus, .k-state-hover .k-add, .k-button:hover .k-i-plus, .k-button:hover .k-add, .k-textbox:hover .k-i-plus, .k-textbox:hover .k-add, .k-button:active .k-i-plus, .k-button:active .k-add {
+	background-position:-48px -64px
+}
+.k-i-funnel, .k-filter {
+	background-position:-32px -80px
+}
+.k-state-hover .k-i-funnel, .k-state-hover .k-filter, .k-button:hover .k-i-funnel, .k-button:hover .k-filter, .k-textbox:hover .k-i-funnel, .k-textbox:hover .k-filter, .k-button:active .k-i-funnel, .k-button:active .k-filter {
+	background-position:-48px -80px
+}
+.k-i-funnel-clear, .k-clear-filter {
+	background-position:-32px -96px
+}
+.k-state-hover .k-i-funnel-clear, .k-state-hover .k-clear-filter, .k-button:hover .k-i-funnel-clear, .k-button:hover .k-clear-filter, .k-textbox:hover .k-i-funnel-clear, .k-textbox:hover .k-clear-filter, .k-button:active .k-i-funnel-clear, .k-button:active .k-clear-filter {
+	background-position:-48px -96px
+}
+.k-i-refresh {
+	background-position:-32px -112px
+}
+.k-state-hover .k-i-refresh, .k-button:hover .k-i-refresh, .k-textbox:hover .k-i-refresh, .k-button:active .k-i-refresh {
+	background-position:-48px -112px
+}
+.k-i-restore {
+	background-position:-32px -128px
+}
+.k-state-hover .k-i-restore, .k-button:hover .k-i-restore, .k-textbox:hover .k-i-restore, .k-button:active .k-i-restore {
+	background-position:-48px -128px
+}
+.k-i-maximize {
+	background-position:-32px -144px
+}
+.k-state-hover .k-i-maximize, .k-button:hover .k-i-maximize, .k-textbox:hover .k-i-maximize, .k-button:active .k-i-maximize {
+	background-position:-48px -144px
+}
+.k-i-minimize {
+	background-position:-64px -288px
+}
+.k-state-hover .k-i-minimize, .k-button:hover .k-i-minimize, .k-textbox:hover .k-i-minimize, .k-button:active .k-i-minimize {
+	background-position:-80px -288px
+}
+.k-resize-se {
+	background-position:-32px -160px
+}
+.k-state-hover .k-resize-se, .k-button:hover .k-resize-se, .k-textbox:hover .k-resize-se, .k-button:active .k-resize-se {
+	background-position:-48px -160px
+}
+.k-i-calendar {
+	background-position:-32px -176px
+}
+.k-state-hover .k-i-calendar, .k-button:hover .k-i-calendar, .k-textbox:hover .k-i-calendar, .k-button:active .k-i-calendar {
+	background-position:-48px -176px
+}
+.k-i-clock {
+	background-position:-32px -192px
+}
+.k-state-hover .k-i-clock, .k-button:hover .k-i-clock, .k-textbox:hover .k-i-clock, .k-button:active .k-i-clock {
+	background-position:-48px -192px
+}
+.k-si-plus {
+	background-position:-32px -208px
+}
+.k-state-hover .k-si-plus, .k-button:hover .k-si-plus, .k-textbox:hover .k-si-plus, .k-button:active .k-si-plus {
+	background-position:-48px -208px
+}
+.k-si-minus {
+	background-position:-32px -224px
+}
+.k-state-hover .k-si-minus, .k-button:hover .k-si-minus, .k-textbox:hover .k-si-minus, .k-button:active .k-si-minus {
+	background-position:-48px -224px
+}
+.k-i-search {
+	background-position:-32px -240px
+}
+.k-state-hover .k-i-search, .k-button:hover .k-i-search, .k-textbox:hover .k-i-search, .k-button:active .k-i-search {
+	background-position:-48px -240px
+}
+.k-i-custom {
+	background-position:-115px -113px
+}
+.k-state-hover .k-i-custom, .k-button:hover .k-i-custom, .k-textbox:hover .k-i-custom, .k-button:active .k-i-custom {
+	background-position:-141px -113px
+}
+.k-editor .k-i-custom {
+	background-position:-112px -110px
+}
+.k-viewHtml {
+	background-position:-112px -132px
+}
+.k-i-insert-n, .k-insert-top {
+	background-position:-160px -32px
+}
+.k-state-hover .k-i-insert-n, .k-state-hover .k-insert-top, .k-button:hover .k-i-insert-n, .k-button:hover .k-insert-top, .k-textbox:hover .k-i-insert-n, .k-textbox:hover .k-insert-top, .k-button:active .k-i-insert-n, .k-button:active .k-insert-top {
+	background-position:-176px -32px
+}
+.k-i-insert-m, .k-insert-middle {
+	background-position:-160px -48px
+}
+.k-state-hover .k-i-insert-m, .k-state-hover .k-insert-middle, .k-button:hover .k-i-insert-m, .k-button:hover .k-insert-middle, .k-textbox:hover .k-i-insert-m, .k-textbox:hover .k-insert-middle, .k-button:active .k-i-insert-m, .k-button:active .k-insert-middle {
+	background-position:-176px -48px
+}
+.k-i-insert-s, .k-insert-bottom {
+	background-position:-160px -64px
+}
+.k-state-hover .k-i-insert-s, .k-state-hover .k-insert-bottom, .k-button:hover .k-i-insert-s, .k-button:hover .k-insert-bottom, .k-textbox:hover .k-i-insert-s, .k-textbox:hover .k-insert-bottom, .k-button:active .k-i-insert-s, .k-button:active .k-insert-bottom {
+	background-position:-176px -64px
+}
+.k-drop-hint {
+	background-position:0 -326px
+}
+.k-i-note, .k-warning {
+	background-position:-160px -240px
+}
+.k-state-hover .k-i-note, .k-state-hover .k-warning, .k-button:hover .k-i-note, .k-button:hover .k-warning, .k-textbox:hover .k-i-note, .k-textbox:hover .k-warning, .k-button:active .k-i-note, .k-button:active .k-warning {
+	background-position:-176px -240px
+}
+.k-i-sort-asc {
+	background-position:-112px -240px
+}
+.k-state-hover .k-i-sort-asc, .k-button:hover .k-i-sort-asc, .k-textbox:hover .k-i-sort-asc, .k-button:active .k-i-sort-asc {
+	background-position:-128px -240px
+}
+.k-i-sort-desc {
+	background-position:-112px -256px
+}
+.k-state-hover .k-i-sort-desc, .k-button:hover .k-i-sort-desc, .k-textbox:hover .k-i-sort-desc, .k-button:active .k-i-sort-desc {
+	background-position:-128px -256px
+}
+.k-i-group {
+	background-position:-112px -272px
+}
+.k-state-hover .k-i-group, .k-button:hover .k-i-group, .k-textbox:hover .k-i-group, .k-button:active .k-i-group {
+	background-position:-128px -272px
+}
+.k-i-ungroup {
+	background-position:-112px -288px
+}
+.k-state-hover .k-i-ungroup, .k-button:hover .k-i-ungroup, .k-textbox:hover .k-i-ungroup, .k-button:active .k-i-ungroup {
+	background-position:-128px -288px
+}
+.k-i-columns {
+	background-position:-112px -304px
+}
+.k-menu {
+	cursor:default
+}
+.k-menu, .k-menu .k-group {
+	list-style:none;
+	margin:0;
+	padding:0;
+	zoom:1
+}
+.k-menu:after {
+	content:'';
+	display:block;
+	width:99%;
+	height:0;
+	float:inherit;
+	overflow:hidden
+}
+.k-menu .k-item .k-item, ul.k-menu-vertical>.k-item {
+	display:block;
+	float:none;
+	border-width:0
+}
+*+html .k-menu .k-item .k-item {
+	zoom:normal
+}
+.k-menu .k-item>.k-link>.k-icon, .k-menu .k-image, .k-menu .k-sprite {
+	margin:-2px 4px 0 -4px;
+	vertical-align:middle
+}
+.k-menu .k-item>.k-link>.k-icon {
+	margin:-2px 0 0
+}
+*+html .k-menu .k-item>.k-link>.k-i-arrow-s, *+html .k-menu .k-image, *+html .k-menu .k-sprite {
+	margin-top:0
+}
+.k-menu .k-item>.k-link {
+	display:block;
+	padding:.5em .9em .4em;
+	line-height:1.34em;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:-moz-none;
+	-ms-user-select:none;
+	user-select:none
+}
+.k-menu .k-group {
+	display:none;
+	border-style:solid;
+	border-width:1px;
+	overflow:visible;
+	white-space:nowrap
+}
+.k-menu .k-group .k-item {
+	display:block;
+	border-width:0
+}
+.k-menu .k-item, .k-widget.k-menu-horizontal>.k-item {
+	position:relative;
+	float:left;
+	border-style:solid;
+	border-width:0 1px 0 0;
+	vertical-align:top;
+	zoom:1;
+	box-sizing:content-box
+}
+.k-menu .k-group .k-item>.k-link {
+	padding:.28em 1.8em .38em .9em
+}
+*+html .k-menu .k-group .k-link {
+	width:100%
+}
+.k-menu .k-item>.k-link>.k-i-arrow-s {
+	margin-right:-8px
+}
+.k-menu .k-item>.k-link>.k-i-arrow-e {
+	position:absolute;
+	top:50%;
+	margin-top:-8px;
+	right:2px
+}
+.k-menu .k-animation-container {
+	border:0
+}
+.k-menu .k-animation-container, .k-menu .k-group {
+	position:absolute;
+	left:0
+}
+.k-menu .k-animation-container .k-animation-container, .k-menu .k-group .k-group, .k-menu-vertical .k-animation-container, .k-menu-vertical .k-group {
+	top:0;
+	left:0
+}
+.k-menu .k-animation-container .k-group {
+	top:auto;
+	left:auto;
+	margin-left:-1px
+}
+.k-menu .k-animation-container, .k-popup .k-animation-container {
+	margin-top:-1px;
+	padding-left:1px
+}
+.k-popup .k-animation-container .k-popup {
+	margin-left:-1px
+}
+ul.k-menu .k-separator {
+	padding:.25em 0;
+	height:100%;
+	width:1px;
+	font-size:0;
+	line-height:0;
+	border-width:0 1px 0 0
+}
+ul.k-menu-vertical .k-separator, .k-menu .k-group .k-separator {
+	padding:0;
+	height:1px;
+	width:100%;
+	border-width:1px 0 0
+}
+.k-grid, .k-listview {
+	position:relative;
+	zoom:1
+}
+.k-grid table {
+	width:100%;
+	border-collapse:separate;
+	empty-cells:show;
+	border-width:0;
+	outline:0
+}
+.k-grid-header .k-header {
+	text-align:left
+}
+.k-grid-header .k-header {
+	overflow:hidden;
+	border-style:solid;
+	border-width:0 0 1px 1px;
+	padding:.5em .6em .4em .6em;
+	font-weight:normal;
+	white-space:nowrap;
+	text-overflow:ellipsis
+}
+.k-grid-header .k-header .k-link {
+	display:block;
+	min-height:18px;
+	line-height:18px;
+	margin:-0.5em -0.6em -0.4em -0.6em;
+	padding:.5em .6em .4em .6em
+}
+.k-grid-header .k-filterable .k-link {
+	padding-right:2.4em
+}
+.k-grid-header .k-header .k-icon {
+	position:static
+}
+.k-grid-header .k-link>.k-icon {
+	vertical-align:text-top
+}
+.k-grid .k-state-hover {
+	cursor:pointer
+}
+.k-grid td {
+	border-style:solid;
+	border-width:0 0 0 1px;
+	padding:.4em .6em;
+	overflow:hidden;
+	line-height:1.6em;
+	vertical-align:middle;
+	text-overflow:ellipsis
+}
+.k-grid .k-grouping-row td, .k-grid .k-hierarchy-cell {
+	overflow:visible
+}
+.k-grid-edit-row td {
+	text-overflow:clip
+}
+.k-grid-edit-row .k-textbox {
+	margin-top:0;
+	margin-bottom:0
+}
+.k-grid-header-wrap, .k-grid-footer-wrap {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	border-style:solid;
+	border-width:0 1px 0 0;
+	zoom:1
+}
+div.k-grid-header, div.k-grid-footer {
+	padding-right:17px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	zoom:1
+}
+div.k-grid-header .k-header {
+	border-bottom-width:0
+}
+.k-grid-content {
+	position:relative;
+	width:100%;
+	overflow:auto;
+	overflow-x:auto;
+	overflow-y:scroll;
+	zoom:1;
+	
+}
+@media print {
+.k-grid {
+	height:auto!important
+}
+.k-grid-header {
+	padding:0!important
+}
+.k-grid-content {
+	overflow:visible;
+	height:auto!important
+}
+}
+.k-virtual-scrollable-wrap {
+	height:100%;
+	overflow-y:hidden;
+	position:relative
+}
+.k-grid-header table, .k-grid-content table, .k-grid-footer table {
+	table-layout:fixed
+}
+*+html .k-grid-content table {
+	width:auto
+}
+.k-grid-toolbar {
+	border-style:solid;
+	border-width:1px 0 0
+}
+.k-grid-header .k-header:first-child, .k-grid tbody td:first-child, .k-grid tfoot td:first-child {
+	border-left-width:0
+}
+.k-grid-toolbar:first-child, .k-grouping-header+.k-grid-toolbar {
+	border-width:0 0 1px
+}
+.k-footer-template td {
+	border-style:solid;
+	border-width:1px 0 0 1px
+}
+.k-group-footer td {
+	border-style:solid;
+	border-width:1px 0
+}
+.k-grid-footer {
+	border-style:solid;
+	border-width:1px 0 0
+}
+.k-grid-footer td {
+	border-top-width:0
+}
+.k-pager-wrap {
+	overflow:auto;
+	border-style:solid;
+	border-width:1px;
+	line-height:24px;
+	padding:4px 0 4px 3px
+}
+.k-grid-pager {
+	border-width:1px 0 0
+}
+.k-grid .k-pager-numbers, .k-pager-numbers .k-link, .k-pager-numbers .k-state-selected {
+	display:inline-block;
+	vertical-align:top;
+	margin-right:1px
+}
+.k-pager-numbers {
+	margin:0 2px
+}
+.k-pager-numbers .k-state-selected {
+	vertical-align:top
+}
+.k-pager-numbers li, .k-pager-input {
+	float:left
+}
+.k-grid .k-pager-numbers {
+	float:left;
+	cursor:default
+}
+.k-pager-info {
+	float:right;
+	padding:0 16px
+}
+.k-pager-numbers .k-link {
+	text-decoration:none
+}
+.k-pager-wrap>.k-link {
+	float:left;
+	margin:0 1px;
+	padding:0 3px;
+	height:22px;
+	line-height:22px;
+	border-radius:13px;
+	cursor:pointer
+}
+.k-pager-wrap>a.k-state-disabled:hover {
+	background:0;
+	cursor:default
+}
+.k-pager-wrap>.k-link .k-icon {
+	vertical-align:top;
+	margin-top:3px
+}
+.k-pager-numbers .k-link {
+	padding:0 8px;
+	border-radius:13px
+}
+.k-pager-numbers .k-link:hover {
+	padding:0 7px;
+	border-style:solid;
+	border-width:1px;
+	line-height:22px
+}
+.k-pager-wrap>.k-link {
+	border-style:solid;
+	border-width:1px
+}
+.k-pager-wrap .k-pager-refresh {
+	float:right;
+	margin-right:6px;
+	border-width:0;
+	border-radius:0
+}
+.k-pager-numbers .k-state-selected {
+	border-style:solid;
+	border-width:1px;
+	line-height:22px;
+	padding:0 7px;
+	border-radius:13px
+}
+.k-pager-wrap .k-textbox {
+	width:40px
+}
+*+html .k-pager-wrap .k-textbox {
+	height:16px;
+	margin-top:2px;
+	display:inline
+}
+.k-pager-wrap .k-dropdown {
+	width:50px
+}
+.k-pager-refresh {
+	float:right
+}
+.k-pager-input, .k-pager-sizes {
+	padding:0 17px
+}
+*+html .k-pager-sizes {
+	float:left
+}
+.k-pager-wrap .k-textbox, .k-pager-wrap .k-widget {
+	margin:-0.3em .4em 0
+}
+.k-grid-filter, .k-header-column-menu {
+	float:right;
+	margin:-0.5em -0.6em -0.4em;
+	padding:.5em .2em .4em;
+	z-index:1
+}
+.k-grid .k-animation-container {
+	position:absolute
+}
+.k-filter-menu {
+	padding:.5em
+}
+.k-filter-menu .k-widget, .k-filter-menu .k-textbox {
+	display:block
+}
+.k-filter-help-text, .k-filter-menu .k-widget {
+	margin:.3em 0 0
+}
+.k-filter-menu .k-filter-and {
+	width:6em;
+	margin:.6em 0 0
+}
+.k-filter-menu .k-button {
+	width:51%;
+	margin:.6em 4% 0 0
+}
+.k-filter-menu .k-button+.k-button {
+	margin-right:0
+}
+.k-column-menu>.k-menu {
+	border-width:0
+}
+.k-columns-item .k-group {
+	max-height:200px;
+	overflow:auto
+}
+span.k-datepicker, span.k-numerictextbox, span.k-combobox, span.k-dropdown, span.k-timepicker, span.k-datetimepicker {
+	background:0
+}
+.k-autocomplete, .k-combobox, .k-datepicker, .k-timepicker, .k-datetimepicker, .k-numerictextbox, .k-dropdown, .k-selectbox, .k-textbox {
+	position:relative;
+	display:inline-block;
+	width:12.4em;
+	overflow:visible;
+	border-width:0;
+	vertical-align:middle
+}
+.k-autocomplete, .k-combobox, .k-datepicker, .k-timepicker, .k-datetimepicker, .k-numerictextbox, .k-dropdown, .k-selectbox {
+	white-space:nowrap
+}
+.k-datetimepicker {
+	width:15em
+}
+.k-autocomplete, .k-picker-wrap, .k-numeric-wrap {
+	position:relative;
+	cursor:default
+}
+.k-dropdown-wrap {
+	position:relative
+}
+.k-dropdown-wrap, .k-picker-wrap, .k-numeric-wrap {
+	display:block
+}
+.k-block, .k-widget, .k-grid, .k-slider, .k-splitter, .k-treeview, .k-panelbar, .k-header-column-menu {
+	outline:0;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0)
+}
+.k-block, .k-slider, .k-splitbar, .k-calendar, .k-pager-wrap, .k-grid-header .k-link, .k-header-column-menu {
+	-webkit-touch-callout:none
+}
+.k-popup.k-list-container, .k-popup.k-calendar-container {
+	-webkit-touch-callout:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	padding:2px;
+	border-width:1px;
+	border-style:solid
+}
+.k-list-container.k-state-border-up, .k-autocomplete.k-state-border-up, .k-dropdown-wrap.k-state-border-up, .k-picker-wrap.k-state-border-up, .k-numeric-wrap.k-state-border-up {
+	border-top:0;
+	padding-top:3px
+}
+.k-dropdown-wrap.k-state-border-up .k-select, .k-picker-wrap.k-state-border-up .k-select {
+	top:1px
+}
+.k-list-container.k-state-border-down, .k-autocomplete.k-state-border-down, .k-dropdown-wrap.k-state-border-down, .k-picker-wrap.k-state-border-down, .k-numeric-wrap.k-state-border-down {
+	border-bottom:0;
+	padding-bottom:3px
+}
+.k-textbox, .k-autocomplete, .k-dropdown-wrap, .k-picker-wrap, .k-numeric-wrap {
+	border-width:1px;
+	border-style:solid;
+	padding:2px 22px 2px 2px
+}
+.k-numeric-wrap.k-expand-padding {
+	padding-right:2px
+}
+.k-textbox, .k-autocomplete {
+	padding:2px
+}
+.k-textbox.k-space-left {
+	padding-left:22px
+}
+.k-textbox.k-space-right {
+	padding-right:22px
+}
+.k-textbox .k-icon {
+	font-size:inherit;
+	top:48%;
+	margin:-2px 0 0;
+	position:absolute
+}
+.k-space-left .k-icon {
+	left:3px
+}
+.k-space-right .k-icon {
+	right:3px
+}
+.k-autocomplete, .k-dropdown-wrap.k-state-focused, .k-dropdown-wrap.k-state-hover, .k-picker-wrap.k-state-focused, .k-picker-wrap.k-state-hover, .k-numeric-wrap.k-state-focused, .k-numeric-wrap.k-state-hover {
+-webkit-transition:box-shadow .15s ease-out;
+-moz-transition:box-shadow .15s ease-out;
+-o-transition:box-shadow .15s ease-out;
+transition:box-shadow .15s ease-out
+}
+.k-textbox>input, .k-picker-wrap .k-input, .k-numeric-wrap .k-input, .k-combobox .k-input {
+	width:100%;
+	vertical-align:top
+}
+.k-picker-wrap .k-input, .k-numeric-wrap .k-input, .k-dropdown-wrap .k-input, .k-selectbox .k-input {
+	font-family:inherit;
+	border-width:0;
+	outline:0
+}
+.k-dropdown .k-input, .k-selectbox .k-input {
+	background:transparent
+}
+*+html .k-picker-wrap .k-input, *+html .k-numeric-wrap .k-input, *+html .k-combobox .k-input {
+	margin:-1px 0
+}
+.k-picker-wrap .k-select, .k-numeric-wrap .k-select, .k-dropdown-wrap .k-select {
+	position:absolute;
+	top:0;
+	right:0;
+	display:inline-block;
+	vertical-align:top;
+	text-decoration:none
+}
+.k-combobox .k-select, .k-picker-wrap .k-select, .k-numeric-wrap .k-select {
+	border-style:solid;
+	border-width:0;
+	border-color:inherit
+}
+.k-picker-wrap .k-select, .k-numeric-wrap .k-select {
+	padding:0 2px
+}
+span.k-datetimepicker .k-select, span.k-datetimepicker .k-select+.k-select {
+	right:0
+}
+.k-textbox, .k-autocomplete {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box
+}
+.k-textbox>input, .k-autocomplete .k-input {
+	display:block
+}
+.k-combobox .k-icon {
+	margin-top:1px
+}
+.k-dropdown .k-select, .k-selectbox .k-select {
+	overflow:hidden;
+	border:0;
+	text-decoration:none;
+	font:inherit;
+	color:inherit
+}
+.k-dropdown .k-input, .k-selectbox .k-input {
+	display:block;
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+.k-textbox>input, .k-autocomplete .k-input, .k-picker-wrap .k-input, .k-numeric-wrap .k-input, .k-dropdown-wrap .k-input, .k-selectbox .k-input {
+	height:1.31em;
+	line-height:1.31em;
+	padding:.18em 0;
+	text-indent:4px;
+	border:0;
+	margin:0
+}
+*+html .k-autocomplete .k-input, *+html .k-picker-wrap .k-input, *+html .k-numeric-wrap .k-input, *+html .k-dropdown-wrap .k-input, *+html .k-selectbox .k-input {
+	text-indent:0
+}
+.k-picker-wrap .k-select, .k-numeric-wrap .k-select, .k-dropdown-wrap .k-select {
+	min-height:1.3em;
+	line-height:1.3em;
+	vertical-align:middle;
+	padding:3px
+}
+body .k-datetimepicker .k-select {
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border-radius:0
+}
+.k-combobox .k-icon, .k-dropdown, .k-selectbox .k-icon {
+	cursor:pointer
+}
+.k-popup {
+	border-style:solid;
+	border-width:1px
+}
+.k-popup .k-item {
+	cursor:default
+}
+.k-popup .k-calendar {
+	border:0
+}
+.k-list {
+	height:100%
+}
+.k-popup .k-list .k-item {
+	padding:1px 5px 1px 5px;
+	line-height:1.8em
+}
+}.k-button, .k-textbox, {
+	display:inline-block;
+	vertical-align:middle
+}
+.k-input {
+	padding:.25em 0
+}
+.k-input, .k-textbox>input {
+	outline:0;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0)
+}
+.k-textbox {
+	outline:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	text-indent:2px\9;
+	width:12.4em
+}
+input.k-textbox {
+	padding:2px .3em;
+	height:2.12em;
+	line-height:1.6em
+}
