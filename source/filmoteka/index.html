@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Фильмотека | naydenov.tk</title>
+ <link href='https://plus.google.com/113419197580831650129' rel='publisher'>
+  <meta name="description" content="Список рекомендации просмотренных фильмов">
+
+<meta content="Какой фильм посмотреть, посоветуйте кино, кино рекомендации" data-page-subject="true" name="keywords" />
+
+<link href="css/kendo.common.min.css" rel="stylesheet">
+<link href="css/kendo.moonlight.min.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/kendo.web.min.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34488886-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+<script src="js/db.js"></script>
+<div id="example" class="k-content">
+  <div id="grid"></div>
+  <script>
+                $(document).ready(function() {
+                    $("#grid").kendoGrid({
+                        dataSource: {
+                            data: createRandomData(942),
+                            schema: {
+                                model: {
+                                    fields: {
+                                        Title: { type: "string" },
+                                        Year: { type: "string" },
+                                        Country: { type: "string" },                                                                                            
+                                                                                                                                                                Director: { type: "string" },
+                                        Actor: { type: "string" },
+                                        Genre: { type: "string" },
+                                        Rating: { type: "number" }
+                                    }
+                                }
+                            },
+                            pageSize: 28,
+                                                                                                            },
+                        sortable: true,
+                        filterable: true,
+                        pageable: true,
+                                                                                                                        columnMenu: true,
+                        columns: [
+                            {
+                                field: "Title",
+                                title: "Название"
+                            },
+                            {
+                                field: "Year",
+                                title: "Год",
+                                                                                                                                width: 50
+                            },
+                            {
+                                field: "Country",
+                                                                                                                                title: "Страна",
+                                                                                                                                width: 100
+                            },                            {
+                                field: "Director",
+                                                                                                                                title: "Режиссёр",
+                                                                                                                                
+                            },
+                                                                                                                
+                            {
+                                field: "Actor",                                                                                                                                                                         title: "Актёры"
+                                                                                                                                
+                            },
+                            {
+                                field: "Genre",
+                                title: "Жанр",
+                                                                                                                                
+                            },
+                            {
+                                field: "Rating",
+                                                                                                                                title: "Оценка",
+                                                                                                                                width: 70
+                            }
+                        ]
+                    });
+                });
+            </script> 
+</div>
+</body>
+</html>
