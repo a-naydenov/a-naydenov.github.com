@@ -221,13 +221,13 @@ body:after {
 }
 
 ::-webkit-scrollbar {
+    background-color:white;
     width: 10px;
     height: 10px;
 }
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
-    height: 0px;
     background-color:white;
-
+    height: 0px;
 }
 ::-webkit-scrollbar-track-piece {
     background-color:white;

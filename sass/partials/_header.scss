@@ -16,16 +16,21 @@ body > header {
     color: $subtitle-color;
     font-weight: normal;
   }
-    .title{
+  .title{
     float: left;
     display:inline;
 }
   .title div {
-    margin-top:-0.4em;
     float: right;
-    opacity: 0.5; 
-}
+  }
   .title div:hover {
-    opacity: 1;
 }
+  #twitter {
+    opacity: 0.5;
+    margin-bottom: 0.4em;
+  }
+  #twitter:hover {
+    opacity: 1;
+  }
+
 }
