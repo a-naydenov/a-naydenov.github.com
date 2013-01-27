@@ -1,4 +1,4 @@
-#  (c) Etienne Rossignon 
+﻿#  (c) Etienne Rossignon 
 #  Licence : MIT
 #  
 require 'json'
