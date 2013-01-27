@@ -226,6 +226,8 @@ body:after {
 }
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
     height: 0px;
+    background-color:white;
+
 }
 ::-webkit-scrollbar-track-piece {
     background-color:white;

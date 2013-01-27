@@ -4,6 +4,7 @@ title: "♫ Топ треков 2012 года"
 date: 2013-01-04 19:44
 comments: false
 description: компиляция треков, топ музыка, лучшие треки, 2012
+cover: http://dl.dropbox.com/u/89057283/post/compilation_top_track_2012_cover.jpg
 categories: 
 - Music
 - St*ff list
