@@ -48,6 +48,7 @@ body > header > h1 {
   font-size: 1em;
   float: left;
 }
+
 body > nav {
   float: right;
   background: $nav-bg;
@@ -74,7 +75,11 @@ nav ul > li {
   display: inline;
   font-size: 0.8em;
 }
-
+nav ul >li a:active, h1:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
 /*nav ul > li::after {
   content: " - ";
 }
@@ -88,13 +93,13 @@ nav ul > li:last-child::after {
   display: inline-block;
   text-decoration: none;
 /*  float: left;
-*/  height: 34;
+*/  height: 34px;
   position: relative;
   text-align: center;
-  width: 34;
+  width: 34px;
 }
 .twicontainer a {
-  color:blue;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -220,6 +225,7 @@ body #content > div > section {
     padding: $default-padding-mobile;
   }
 }
+
 // About
 .grafotar {
   float: left;
