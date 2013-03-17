@@ -75,14 +75,57 @@ nav ul > li {
   font-size: 0.8em;
 }
 
-nav ul > li::after {
+/*nav ul > li::after {
   content: " - ";
 }
 
 nav ul > li:last-child::after {
   content: "";
+}*/
+
+/*twi bird - */
+.twicontainer {
+  display: inline-block;
+  text-decoration: none;
+/*  float: left;
+*/  height: 34;
+  position: relative;
+  text-align: center;
+  width: 34;
+}
+.twicontainer a {
+  color:blue;
+  text-decoration: none;
 }
 
+/* Twitter Bird */
+.twitter-bird {
+  background-image: url('../images/twitter-bird-sprite.png');
+  height: 34px;
+/*  margin: 0 -30% 0 0;
+*/  width: 34px;
+}
+
+.twitter-bird:hover {
+  -webkit-animation: fly 0.2s steps(3) 0 infinite;
+  -moz-animation: fly 0.2s steps(3) 0 infinite;
+  animation: fly 0.2s steps(3) 0 infinite;
+
+}
+
+@-webkit-keyframes fly {
+  from { background-position: 0 0; }
+    to { background-position: -112px 0; }
+}
+@-moz-keyframes fly {
+  from { background-position: 0 0; }
+    to { background-position: -112px 0; }
+}
+@keyframes fly {
+  from { background-position: 0 0; }
+    to { background-position: -112px 0; }
+}
+/* - twi bird */
 article h2, h3, h4, h5, h6 {
   padding: 0;
   background: none;

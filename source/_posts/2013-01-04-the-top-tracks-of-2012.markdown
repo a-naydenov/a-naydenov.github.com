@@ -7,7 +7,6 @@ description: Я постарался сделать выжимку не един
 cover: http://dl.dropbox.com/u/89057283/post/compilation_top_track_2012_cover.jpg
 categories: 
 - Music
-- St*ff list
 ---
 {% img right http://dl.dropbox.com/u/89057283/post/compilation_top_track_2012_cover.jpg 427 303 адовый кавёр %}
 Друзья, вот и выкладываю свою компиляцию лучших треков 2012 года. 
