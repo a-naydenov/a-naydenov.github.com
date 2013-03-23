@@ -3,7 +3,7 @@ layout: post
 title: "▶ Воскресное видео — 1: Для фронтенд разработчика"
 date: 2013-02-03 22:02
 comments: false
-categories: video
+categories: Video
 description: 5 видео записей для саморазвития фронтенд разработчика
 cover: http://b.vimeocdn.com/ts/328/842/328842904_200.jpg
 ---

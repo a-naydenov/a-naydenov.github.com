@@ -7,7 +7,8 @@ title: "Обо мне"
 </div>
 <div >
       <p style="padding-top: 2.5em">Мне 19, живу Иркутске, работаю в <a href="http://sei.irk.ru/">ИСЕМ СО РАН</a>. Интересуюсь вебом.<BR>  </p>
-	    <a href="http://naydenov.tk/cv">Резюме </a><BR>
+	  <a href="http://naydenov.tk/cv">Резюме </a><BR>
       <a href="http://naydenov.tk/filmoteka">Фильмотека </a>
+      <a href="http://naydenov.tk/books">Книжня </a>
 </div>
 <div class="dot"></div>

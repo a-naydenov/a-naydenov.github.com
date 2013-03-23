@@ -25,11 +25,6 @@ body {
   -webkit-text-size-adjust: none;
 }
 html { -webkit-text-size-adjust: none; }
-/*p {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  }*/
 
 a:link,
 a:visited {
@@ -42,9 +37,10 @@ a:visited {
 
 #wrap {
   width: 100%;
-  min-width: 925px; 
+  min-width: 925px;
+  margin: 0 auto; 
+  text-align: center;
   }
-/*3столба*/
     @media (max-width: 640px) {
     .reading-bug a.buy,
     a.buy {
@@ -76,7 +72,6 @@ a:visited {
     min-height: 150px;
     }
       }
-/*4*/
 
     @media (max-width: 769px) {
     .reading-bug a.buy,
@@ -109,7 +104,6 @@ a:visited {
     min-height: 150px;
     }
       }
-      /*5*/
     @media (max-width: 970px) {
     .reading-bug a.buy,
     a.buy {
@@ -257,7 +251,6 @@ font-size: 14px;
 }
 }
 
-
 @media screen and (min-width: 490px) {
 
 a:link,
@@ -268,48 +261,32 @@ a:visited {
   -ms-transition: color .2s ease;
   transition: color .2s ease;
   }
-  
-#wrap {
-/*  float: left;
-  padding: 0 3% 0;
-*/ }
 
   #main {
     padding: 0 40px 45px !important; /* * upd */
-    margin: 0 auto;/* * upd */
-/*    width: 916px;
+    margin: 0 auto;
+/*    width: 925px;
 */    }
     
     .archive #main, .reading #main {
             width: auto;
-/*      min-width: 916px;
+/*      min-width: 925px;
 */      }
       
       .book #main {
-/*        width: 916px;
+/*        width: 925px;
 */        }
 
 #reading-lst {
-  min-width: 926px;/* !important*/
+  min-width: 926px;
   clear: both;
-/*  float: left;
-*/  }
+ }
 
 .reading-bug a:link, .reading-bug a:visited {
   float: left;
   height: 240px;
   position: relative;
   }
-  
-/*  .reading-bug a:hover, .reading-bug a:focus {
-    background: #f9f9f9;
-    -webkit-transition: background-color .2s ease;
-    -moz-transition: background-color .2s ease;
-    -o-transition: background-color .2s ease;
-    -ms-transition: background-color .2s ease;
-    transition: background-color .2s ease;
-    }
-*/
 
 .reading-bug {
   float: left;
@@ -324,7 +301,6 @@ a:visited {
     width: 190px;
     position: relative;
     height: 170px;
-    border-bottom: 1px solid #ddd;
     margin-left: 0;
     }
  
@@ -360,8 +336,9 @@ a:visited {
       }
 
 .reading .reading-bug h1 {
+  padding-top: 5px;
   clear: both;
-  float: left;
+  float: center;
   }
 
   .reading-bug:hover h1, .reading-bug:focus h1 {
@@ -375,7 +352,7 @@ a:visited {
 .reading .reading-bug h2 {
   margin-bottom: 0;
   clear: both;
-  float: left;
+  float: center;
   padding: 0 5px;
   }
 
@@ -475,7 +452,6 @@ header.elegantshadow {
       2px 2px 0px rgb(243, 243, 243), 
       4px 4px 0px rgba(0, 0, 0, 0.2);
     }
-/*end*/
 
 @media (max-width: 1960px ) and ( min-width:490px  ) {
       hr.category {
