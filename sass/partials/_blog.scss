@@ -33,7 +33,7 @@ article {
   }
   .entry-content {
     a { border-bottom: 1px solid $link-border-bottom; color: $text-color;
-    &:hover { color: $text-color-hover; border-bottom: 3px solid $link-border-bottom-hover;
+    &:hover { color: $text-color-hover; border-bottom: 2px solid $link-border-bottom-hover;
       transition: all linear 0.3s; -webkit-transition: all linear 0.3s}
   }
 }
@@ -157,7 +157,7 @@ a.category, a.basic-alignment {
     border-bottom: 1px solid $link-border-bottom;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
-    &:hover {   color: $text-color-hover; border-bottom: 3px solid $link-border-bottom-hover; transition: all linear 0.3s; -webkit-transition: all linear 0.3s}
+    &:hover {   color: $text-color-hover; border-bottom: 2px solid $link-border-bottom-hover; transition: all linear 0.3s; -webkit-transition: all linear 0.3s}
     &[href*=archive] {
       &:before, &:after { content: '\2014'; padding: 0 .3em;}
     }

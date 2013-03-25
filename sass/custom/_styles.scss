@@ -41,7 +41,7 @@ body > header {
   padding: $default-padding-desktop;
   border-bottom: 1px solid #53565a;
   @media only screen and (max-width: 768px) {
-    padding: $default-padding-mobile;
+  padding: $default-padding-mobile;
   }
 }
 body > header > h1 {
@@ -50,13 +50,25 @@ body > header > h1 {
 }
 
 body > nav {
+  display: inline-block;
   float: right;
-  background: $nav-bg;
-  border: none;
+/*  background: $nav-bg;
+*/  border: none;
+}
+.hr-cut {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0)); 
+    clear: both;
+    float:none;
+    max-width: 90%;
 }
 body > footer {
   background: none;
-  border-top: 1px solid #53565a;
+  border-top: 0px solid #fff;
   padding: 5px 0 5px 0 !important;  // !important needed for IE
   margin: 0 auto;
   border-radius: 0;
@@ -229,7 +241,13 @@ body #content > div > section {
 // About
 .grafotar {
   float: left;
+}
+@media (max-width: 490px) {
+.about {
+  clear: both;
+  display: block;
 } 
+}
 .line {
   padding: 1em;}
 div.line + div.line {
