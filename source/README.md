@@ -1,16 +1,18 @@
-## About Colorbox:
+```## About:
 Реп со сгенерированной статикой для [уютненького](http://naydenov.tk).
 
 Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php) & [specification](http://semver.org/)
+```
 
 ## TODO
 * make сноски
 * + jquery.colorbox.js 
+* + 404 error page
 
 ## Changelog:
 ¿ + - Add; * - Edit; - - Delete; | - end; / - page
 
-### Version 0.9.1-rc.1 - 25 March  2013 will be the production !
+### Version 0.9.1-rc.1 - 25 March  2013 Major release !
 * Change submain color on ультрафиолетовый
 * + /books
 * last fix for /books, more underachieving

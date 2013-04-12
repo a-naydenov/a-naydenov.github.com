@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Обо мне"
+description: Мне 20, живу Иркутске, работаю в ИСЕМ СО РАН. Интересуюсь вебом.
+cover: http://naydenov.tk/images/avatar.jpg
 ---
 <div>
  <iframe class="grafotar" src="/about/includeava.htm" width="250" height="250" scrolling="no" frameborder="0" ></iframe>
