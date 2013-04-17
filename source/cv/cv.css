@@ -8,6 +8,17 @@ margin:px;
 padding:0;
 }
 
+body {
+font-size:small;
+font:x-small;
+text-align:center;
+font-family:Georgia;
+color:#444;
+}
+::selection {
+background:#D7F4FF;
+}
+
 #back {
 color:#666;
 font:32px Arial;
@@ -32,21 +43,13 @@ line-height:24px;
 border-bottom:1px solid #ccc;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3 {
 font-size:100%;
 font-weight:400;
 }
-
-body {
-font-size:small;
-font:x-small;
-text-align:center;
-font-family:Georgia;
-color:#444;
-}
-
-::selection {
-background:#FFFF9E;
+h4{
+font-size: 14px;	
+font-weight:100;
 }
 
 #breadth,.assembly1 {
@@ -278,7 +281,10 @@ color:#0181eb;
 a:hover {
 border-bottom:1px solid #9BB5F0;
 color:#0181eb;
-line-height:0.9;
+-webkit-transition:color 500ms ease-in;
+-moz-transition:color 500ms ease-in;
+-o-transition:color 500ms ease-in;
+transition:color 500ms ease-in;
 }
 
 a:active {
@@ -317,6 +323,24 @@ position:relative;
 border:none;
 }
 
+p.pointer:before {
+	content: "ᗌ";
+	padding-right: 5px;
+}
+p.tick:before {
+	content: "✔";
+	padding-right: 5px;
+}
+
+p.skill:before {
+	content: "•";
+    padding-right: 5px;
+}
+
+p.skill {
+	line-height: 0.5;
+}
+
 .last {
 border:none;
 }
@@ -353,12 +377,16 @@ color:#999;
 right:0;
 font-size:12px;
 }
+.emitter{
+color:#999;
+font-size:14px;	
+}
 
 .date {
 position:absolute;
 color:#999;
 right:0;
-font-size:100%;
+font-size:14px;
 }
 
 .job h5 {
