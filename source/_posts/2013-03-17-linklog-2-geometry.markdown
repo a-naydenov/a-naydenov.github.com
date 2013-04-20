@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "➎ Ссылки #1 | Геометрия"
+title: "➎ Ссылки #2 | Геометрия"
 date: 2013-03-03 23:20
 comments: false
 categories: Linklog
