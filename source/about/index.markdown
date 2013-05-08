@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Обо мне"
-description: Мне 20, живу Иркутске, работаю в ИСЕМ СО РАН. Интересуюсь вебом.
+description: Мне 20, живу Иркутске, работаю в ИСЭМ СО РАН. Интересуюсь вебом.
 cover: http://naydenov.tk/images/avatar.jpg
 ---
 <div>
