@@ -1,0 +1,9 @@
+---
+layout: post
+title: "new-post"
+date: 2013-06-20 22:22
+comments: true
+categories: 
+description: 
+cover: 
+---
