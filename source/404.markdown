@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "404 Error"
-date: 2012-08-31 01:01
+title: "Not found"
+date: 4040-02-29 01:01
 comments: false
 sharing: false
 footer: true
 ---
-Ссылка ошибочна.
+Проверьте ссылку.
+Либо воспользуйтесь поиском ➘
