@@ -13,9 +13,9 @@ Released under the [MIT license](http://www.opensource.org/licenses/mit-license.
 
 ### Version 1.0 August 2013
 * + /404
-* + /search
 * + img caption plugin
 * + /about - add links social network (no icons)
+* ! /search (Tapirgo does not support Cyrillic, is back on Google)
 
 ### Version 0.9.1-rc.1 - 25 March  2013 Major release !
 * Change submain color on ультрафиолетовый
