@@ -68,6 +68,7 @@ body > footer {
       position: relative;
       color: darken $text-color;  
       width: 8% !important;
+      max-width: 200px;
       opacity: 0.8;
       @include transition(all .5s);
       &:focus {
