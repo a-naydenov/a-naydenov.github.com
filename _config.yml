@@ -6,7 +6,8 @@ url: http://naydenov.tk
 title: Веблог Найдёнова Анатолия
 subtitle: 
 author: Найдёнов Анатолий
-simple_search: http://google.com/search
+#simple_search: http://google.com/search
+tapir_token: 5207434f48d54a0100000001
 # description: Персональный блог Найденова Анатолия
 keywords: иркутск, блог, найденов анатолий
 
