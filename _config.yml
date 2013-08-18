@@ -41,6 +41,8 @@ excerpt_link: "Дальше &rarr;"  # "Continue reading" link text at the botto
 
 titlecase: true       # Converts page and post titles to titlecase
 
+emoji_dir: images/emoji
+
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 default_asides: 

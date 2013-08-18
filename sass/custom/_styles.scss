@@ -157,6 +157,14 @@ article header p.meta {
   position: relative;
 }
 
+// Reset image styles for Emoji
+.emoji {
+  box-shadow: none;
+  border: 0;
+  padding: 0em;
+  height: 20px;
+}
+
 article img, article video, article .flash-video {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
