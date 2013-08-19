@@ -6,12 +6,14 @@ Released under the [MIT license](http://www.opensource.org/licenses/mit-license.
 
 ## TODO
 * make сноски
-* + jquery.colorbox.js 
 
 ### Changelog:
 ¿ + Add; * Edit; - Delete; | separator; / page
 
-### Version 1.0 August 2013
+### Version 1.1 - 19 August 2013
+* + emoji smiles
+
+### Version 1.0 - 7 August 2013
 * + /404
 * + img caption plugin
 * + /about - add links social network (no icons)

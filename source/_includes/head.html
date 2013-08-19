@@ -14,8 +14,6 @@
   <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#" >
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <a rel="author" href="https://plus.google.com/113419197580831650129/"></a>
-
   {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
@@ -23,7 +21,6 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %} 
   <link rel="canonical" href="http://naydenov.tk/">
   <link href="{{ root_url }}/images/favicon.ico" rel="shortcut icon" />
@@ -44,5 +41,8 @@
   <link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
   {% include custom/head.html %}
   {% include google_analytics.html %}
+    <a rel="author" href="https://plus.google.com/113419197580831650129/"></a>
+    <meta name='yandex-verification' content='5b691843cb768b94' />
+  	<meta name='wmail-verification' content='acd6913b07d4a374' />
   {% include custom/socialmeta.html %}
 </head>
