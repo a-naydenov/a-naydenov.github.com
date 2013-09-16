@@ -21,7 +21,7 @@ cover: http://naydenov.tk/images/avatar.jpg
 * [Гуглоплюс](https://plus.google.com/113419197580831650129/posts)
 * Скайп: "najdenov."  
 * [Вимео](https://vimeo.com/naydenov)
-* [Инстаграм](http://instagram.com/tinki_vinki)    
+* priv Инстаграм
 * [Пинтерест](http://pinterest.com/naydenov/boards/)
 * [БукМикс](http://bookmix.ru/users/index.phtml?uid=23010) Перепись почти всех прочтенных мною книг. 
 * [Воллбейс](http://wallbase.cc/user/profile/81866) Коллекция заставок рабочего стола.
