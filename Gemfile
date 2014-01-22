@@ -15,8 +15,8 @@ group :development do
   gem 'liquid', '~> 2.3.0'
   gem 'guard' 
   gem 'gemoji'
-  gem 'json'
-  gem 'nokogiri'
+#  gem 'json'
+#  gem 'nokogiri'
 end
 
 gem 'sinatra', '~> 1.3.2'
