@@ -4,6 +4,7 @@ title: "Социальная история"
 date: 2013-06-15 21:39
 comments: true
 categories: Thoughts
+sharing: false
 description: Полагаю, что в обозримом будущем сформулируется термин для обозначения вирутального отражение личности ...
 cover: https://dl.dropboxusercontent.com/u/89057283/post/selfmade_tattoo.png
 ---

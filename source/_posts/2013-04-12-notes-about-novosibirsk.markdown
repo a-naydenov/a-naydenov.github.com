@@ -4,6 +4,7 @@ title: "Заметки о Новосибирске"
 date: 2013-04-4 19:16
 comments: false
 categories: Life
+sharing: false
 description: По мере пребывания и простоев писал заметки с очевидностями в эверноут, писал для себя, но орфография приемлемая так что опубликую, чего уж.
 cover: http://dl.dropboxusercontent.com/u/89057283/post/sport-carriage.jpg
 ---

@@ -4,6 +4,7 @@ title: "➎ Ссылки #3 | Визуализация"
 date: 2013-04-20 22:48
 comments: false
 categories: Linklog
+sharing: false
 description: 5 красивых интерактивных карт, визуализаций и инфографиков.
 cover: https://dl.dropboxusercontent.com/u/89057283/post/usa-hub.png
 ---

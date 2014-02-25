@@ -4,6 +4,7 @@ title: "▶ Воскресное видео — 2: О производстве"
 date: 2013-06-23 21:41
 comments: false
 categories: Video
+sharing: false
 description: 5 видео о создании разных предметов
 cover: http://b.vimeocdn.com/ts/436/407/436407376_200.jpg
 ---

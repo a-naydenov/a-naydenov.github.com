@@ -4,6 +4,7 @@ title: "Мой выбор"
 date: 2013-05-25 21:59
 comments: false
 categories: Life
+sharing: false
 description: Всем людям что-то нравиться, и я всегда знал что нравиться мне и мог об этом рассказать
 cover: 
 ---

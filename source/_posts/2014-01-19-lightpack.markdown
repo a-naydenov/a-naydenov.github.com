@@ -4,6 +4,7 @@ title: "Пришел лайтпак с кикстартера"
 date: 2014-01-18 20:30
 comments: false
 categories: Life
+sharing: false
 description: Лайтпак -- это устройство подсветки монитора для усиления эффекта присутствия.
 cover: 
 ---

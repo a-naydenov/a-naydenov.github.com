@@ -3,6 +3,7 @@ layout: post
 title: "Цифровая дистрибуция"
 date: 2012-11-07 21:25
 comments: false
+sharing: false
 categories: Geekfest
 ---
 На втором этапе стартап-школы, буду рубить фишку и смотреть вдаль цифровой дистрибуции контента. 

@@ -3,6 +3,7 @@ layout: post
 title: "Мобильные устройства в будущем"
 date: 2012-10-23 19:43
 comments: false
+sharing: false
 categories: Geekfest
 ---
 Пост написан в рамках участия в проекте Стартап-школа.

@@ -4,6 +4,7 @@ title: "Another three reasons to affection"
 date: 2013-08-03 21:41
 comments: true
 categories: Life
+sharing: false
 description: Момент для осуществления того, о чём я уже в планах размышлял
 cover: http://monosnap.com/image/dxLWUiqMFSVPKFcI1SpxhdcO5.png
 ---

@@ -3,7 +3,8 @@ layout: post
 title: "➎ Ссылки #6 | Программерские гифки"
 date: 2013-07-23 17:34
 comments: false
-categories: Linklog	
+categories: Linklog
+sharing: false
 description: тумблеры c околопрограммерскими гифками
 cover: 
 ---

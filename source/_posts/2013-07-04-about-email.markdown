@@ -4,6 +4,7 @@ title: "Об электронной почте"
 date: 2013-07-04 21:49
 comments: false
 categories: Thoughts
+sharing: false
 description: О особенностях, будущем и плохом в почте
 cover: https://dl.dropboxusercontent.com/u/89057283/post/Communications.JPG
 ---

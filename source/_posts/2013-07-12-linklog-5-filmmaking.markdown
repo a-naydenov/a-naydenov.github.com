@@ -4,6 +4,7 @@ title: "➎ Ссылки #5 | Кинопроизводство"
 date: 2013-07-12 22:10
 comments: false
 categories: Linklog
+sharing: false
 description: 5 ссылок о процессе создания кино
 cover: http://saturdayjam.ru/lj/b081.jpg
 ---

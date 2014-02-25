@@ -4,6 +4,7 @@ title: "➎ Ссылки #2 | Геометрия"
 date: 2013-03-03 23:20
 comments: false
 categories: Linklog
+sharing: false
 description: 5 интересных блогов про геометрические фигуры
 cover: http://dl.dropbox.com/u/89057283/post/apple_logo_golden_ratio.jpg
 ---

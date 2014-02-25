@@ -3,6 +3,7 @@ layout: post
 title: "Тебе не стоит изучать руби"
 date: 2012-11-14 20:53
 comments: false
+sharing: false
 categories: Geekfest
 ---
 {% img left http://www.ruby-lang.org/images/logo.gif %}
