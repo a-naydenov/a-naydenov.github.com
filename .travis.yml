@@ -1,0 +1,18 @@
+---
+branches:
+  only:
+  - source
+language: ruby
+rvm:
+- 1.9.3
+before_script:
+- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+- rake setup_github_pages[$REPO_URL]
+script:
+- rake generate
+after_script:
+- rake deploy
+env:
+  global:
+  - GH_REPO="a-naydenov/a-naydenov.github.com"
+  - secure: "KsA1J8L40ebXKN9SCciM4QmX1JvuIQPHt0VEwW+TVdYN/I6mdOT83Val8Ld8S/MvgUt58AXi1GzGSD0EtuQBfEwRoeRPgDTZIOz65s4LYilI+XWvF/t8fNMutNejs0mrk6fWyOAVbGNvNm+ZEsJ/TU8/xMoDbqHBhSwX3fV4vAE="

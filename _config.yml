@@ -141,7 +141,7 @@ prose:
         field:
           element: "text"
           value: "description"
-     # - name: "cover"
-     #   field:
-     #     element: "text"
-     #     value: "cover"
+      - name: "cover"
+        field:
+          element: "text"
+          value: "cover"
