@@ -103,3 +103,45 @@ google_analytics_tracking_id: UA-34488886-1
 
 # Facebook Like
 facebook_like: false
+
+#prose.io settings 
+prose:
+  rooturl: "source"
+  metadata:
+    "source/_posts":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          value: "Title"
+      - name: "comments"
+        field:
+          label: "Allow comments"
+          element: "checkbox"
+          value: true
+      - name: "categories"
+        field:
+          element: "text"
+          value: "misc"
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: true
+          #my
+      - name: "sharing"
+        field:
+          label: "sharing"
+          element: "checkbox"
+          value: false
+      - name: "description"
+        field:
+          element: "text"
+          value: "description"
+     # - name: "cover"
+     #   field:
+     #     element: "text"
+     #     value: "cover"
