@@ -2,5 +2,11 @@
 layout: default
 title: Результаты
 ---
+<fieldset role="search">
+  <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+  лол
+  <input id="st-search-input" class="search" type="text" name="q" results="0" placeholder=""/>
+</fieldset>
+</form>
 
 <div id="st-results-container"></div>
