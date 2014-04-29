@@ -8,7 +8,7 @@ cover: http://naydenov.tk/images/avatar.jpg
  <iframe class="grafotar" src="/about/includeava.htm" width="250" height="250" scrolling="no" frameborder="0" ></iframe>
 </div>
 <div  class="about">
-      <p style="padding-top: 0.8em">Привет! Мне 21, живу Иркутске, работаю в <a href="http://sei.irk.ru/">ИСЭМ СО РАН</a>. Интересуюсь веб-разработкой.<BR></p>
+      <p style="padding-top: 0.8em">Привет! Мне 21, живу Иркутске, работаю в <a href="http://sei.irk.ru/">ИСЭМ СО РАН</a>. Занимаюсь веб-разработкой.<BR></p>
 	      <a href="http://naydenov.tk/books/">Книжня </a><BR>
       <a href="http://naydenov.tk/filmoteka/">Фильмотека </a><BR>			
       <a href="http://naydenov.tk/my-elect/">Мой выбор </a><BR>
