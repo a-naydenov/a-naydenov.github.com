@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Обо мне"
-description: Мне 20, живу <>, работаю в<>. Интересуюсь <>..
+description: Мне 20, живу <>, работаю в<>. Интересуюсь <>
 cover: http://naydenov.tk/images/avatar.jpg
 ---
 <div>
@@ -15,14 +15,14 @@ cover: http://naydenov.tk/images/avatar.jpg
       <a href="http://naydenov.tk/cv/">Резюме </a><BR>		
 </div>
 <div class="dot"></div>
-В следующих сервисах обитания меня можно добавить в друзья, познакомить с собой, потроллить и забанить  (ну, или чем вы там обычно занимаетесь):
+В следующих сервисах обитания меня можно добавить в друзья, потроллить и забанить (ну или чем вы там обычно занимаетесь):
 
+* [Гуглоплюс](https://plus.google.com/113419197580831650129/posts) Пощу посты
 * [Мозгохранилище](http://brainstorage.me/naydenov)    
-* [Гуглоплюс](https://plus.google.com/113419197580831650129/posts)
 * Скайп: "najdenov."  
 *  Вимео **
 * Инстаграм **
-* [БукМикс](http://bookmix.ru/users/index.phtml?uid=23010) Перепись почти всех прочтенных мною книг. 
-* [Воллбейс](http://wallbase.cc/user/profile/81866) Коллекция заставок рабочего стола.
+* [БукМикс](http://bookmix.ru/users/index.phtml?uid=23010) Перепись многих книг. 
+* [Воллбейс](http://wallbase.cc/user/profile/81866) Коллекция заставок.
 * [Ютуб](https://www.youtube.com/user/thenaidenov)
 * [СаундКлауд](https://soundcloud.com/against_sleep)
