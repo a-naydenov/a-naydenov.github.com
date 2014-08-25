@@ -307,7 +307,6 @@ background:url(../images/skype-icon.png) no-repeat;
 height: 15px;
 width:11px;
 border:1px;
-/*font-size:10px;*/
 padding:16px 0 6px 32px;
 
 }
@@ -370,7 +369,6 @@ background:#222;
 position:relative;
 margin-bottom:1em;
 padding-bottom:1em;
-/*border-bottom:1px solid #ccc;*/
 }
 h4, h5 {
 	position: absolute;
@@ -381,7 +379,6 @@ h4, h5 {
 	color:#999;
 }
 .job h4 {
-/*position:absolute;*/
 right:0;
 top:20px;
 }
@@ -404,7 +401,6 @@ font-size:14px;
 }
 
 .job h5 {
-/*position:absolute;*/
 right:3px;
 }
 
