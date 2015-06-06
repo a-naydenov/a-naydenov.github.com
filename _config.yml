@@ -2,7 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://naydenov.tk
+url: https://naydenov.tk
+enforce_ssl: naydenov.tk
+
 title: Веблог Найдёнова Анатолия
 subtitle: 
 author: Найдёнов Анатолий
@@ -131,7 +133,6 @@ prose:
           label: "Published"
           element: "checkbox"
           value: true
-          #my
       - name: "sharing"
         field:
           label: "sharing"

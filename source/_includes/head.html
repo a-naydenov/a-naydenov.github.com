@@ -1,3 +1,9 @@
+<script type="text/javascript">
+    var host = "naydenov.tk";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
+
 <!--                       __                      __  __    
      _ __   __ _ _   _  __| | ___ _ __   _____   _| |_| | __
     | '_ \ / _` | | | |/ _` |/ _ \ '_ \ / _ \ \ / / __| |/ /
@@ -21,8 +27,10 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="MobileOptimized" content="320">
+  <meta name="HandheldFriendly" content="True">
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %} 
-  <link rel="canonical" href="http://naydenov.tk/">
+  <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
   <link href="{{ root_url }}/images/favicon.ico" rel="shortcut icon" />
   <link rel="apple-touch-icon" sizes="57x57" href="{{ root_url }}/images/apple-touch-icon-114.png"/> 
   <link rel="fluid-icon" href="{{ root_url }}/images/fluidicon.png" title="Naydenov.tk" />

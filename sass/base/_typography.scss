@@ -29,7 +29,13 @@ body > header h2 {
 body {
   line-height: 1.5em;
   color: $text-color;
+  color: rgba(0,0,0,0.8);
+  text-rendering: optimizeSpeed;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   @extend .serif;
+
 }
 h1 {
   font-size: 2.2em;
