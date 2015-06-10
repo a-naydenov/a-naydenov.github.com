@@ -9,7 +9,8 @@ $default-padding-desktop: 27.5px 0 15px 0 !important;
   font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .sans { font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-.serif { font-family: 'Palatino', 'Palatino Linotype', 'Georgia', serif; }
+// .serif { font-family: 'Palatino', 'Palatino Linotype', 'Georgia', serif; }
+.serif { font-family: "HelveticaNeue", Helvetica, serif; }
 
 p, blockquote, ul, ol {
     margin-bottom: 0.6em;
@@ -28,7 +29,8 @@ html {
 }
 
 body {
-  width: 60%;
+  // width: 60%;
+  width: 769px;
   @media only screen and (max-width: 768px) {
     width: 95%;
   }
@@ -247,6 +249,10 @@ body #content > div > section {
 }
 
 // About
+h1 {
+  font-size: 0.6em;
+}
+
 .grafotar {
   float: left;
 }

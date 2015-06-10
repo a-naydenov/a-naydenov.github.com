@@ -11,7 +11,7 @@ class SinatraStaticServer < Sinatra::Base
   end
 
   not_found do
-    send_sinatra_file('404.html') {"Сорри, страницы #{request.path} не существуют."}
+    send_sinatra_file('404.html') {"Cтраница #{request.path} не существует."}
   end
 
   def send_sinatra_file(path, &missing_file_block)

@@ -11,7 +11,7 @@ cover: http://b.vimeocdn.com/ts/328/842/328842904_200.jpg
 
 5 видео для интересующихся веб-разработкой.
 
-{% youtube h4QuJ0xBGfc 300 300%} 
+<iframe width="760" height="315" src="https://www.youtube.com/embed/h4QuJ0xBGfc" frameborder="0" allowfullscreen></iframe>
 Обнаружено на [доклады с «404 fest».](http://2012.404fest.ru/themes/)
 <!-- more -->
 
