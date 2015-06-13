@@ -29,8 +29,8 @@ html {
 }
 
 body {
-  // width: 60%;
-  width: 769px;
+  width: 60%;
+  // width: 769px;
   @media only screen and (max-width: 768px) {
     width: 95%;
   }
@@ -39,14 +39,14 @@ body > div, body > div > div {                    // main blog post area
     background: $main-bg;
     border: none;
 }
-body > header {
+.blog > header {
   padding: $default-padding-desktop;
   border-bottom: 1px solid #53565a;
   @media only screen and (max-width: 768px) {
   padding: $default-padding-mobile;
   }
 }
-body > header > h1 {
+.blog > header > h1 {
   font-size: 1em;
   float: left;
 }
@@ -68,7 +68,7 @@ body > nav {
     float:none;
     max-width: 100%;
 }
-body > footer {
+.blog > footer {
   background: none;
   border-top: 0px solid #fff;
   padding: 5px 0 5px 0 !important;  // !important needed for IE
@@ -164,7 +164,7 @@ article header p.meta {
   box-shadow: none;
   border: 0;
   padding: 0em;
-  height: 20px;
+  height: 15px;
 }
 
 article img, article video, article .flash-video {
@@ -239,9 +239,9 @@ article a[rel=bookmark] {
   font-size: 1.2em;
 }
 
-body #content > article, 
-body #content > div > article, 
-body #content > div > section {
+.blog #content > article, 
+.blog #content > div > article, 
+.blog #content > div > section {
   padding: 0 !important;              // !important needed for IE
   @media only screen and (max-width: 768px) {
     padding: $default-padding-mobile;

@@ -1,7 +1,35 @@
 ## Changelog
 
-###### Version 1.2 - 23 March 2014
+
+###### Version 2.0 - 25 Jun 2014
+* + /project
+* +		 	/georate
+
+###### Version 1.9 - 17 Jun 2014
+* +* /CV
+
+###### Version 1.8 - 14 Jun 2014
+* * blog nav-bar
+
+###### Version 1.7 - 13 Jun 2014
+* * top .index add about screen
+
+###### Version 1.6 - 11 Jun 2014
+* :scissors: sass refactoring
+
+###### Version 1.5 - 10 Jun 2014
+* + /blog/categories
+
+###### Version 1.4 - 7 Jun 2014
+* + Transferring the DNS to CloudFlare's
+* + Flexible HTTPS and cache, minify, load balancing 
+* + subdomains: img., file. 
+
+###### Version 1.3 - 8 April 2014
 * + Integration Travic-CI & Prose.io
+
+
+###### Version 1.2 - 19 March 2014
 * + Swiftype search pugin
 
 ###### Version 1.1 - 19 August 2013

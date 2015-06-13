@@ -5,7 +5,7 @@
 url: https://naydenov.tk
 enforce_ssl: naydenov.tk
 
-title: Веблог Найдёнова Анатолия
+title: О жизне, работе и думы
 subtitle: 
 author: Найдёнов Анатолий
 simple_search: //google.com/search
@@ -34,7 +34,7 @@ category_dir: categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 3          # Posts per page on the blog index
 pagination_dir:  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Дальше &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
