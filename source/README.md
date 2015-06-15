@@ -1,18 +1,20 @@
 ## Changelog
 
+<!-- ###### Version 2.0 - 25 Jun 2014
+* * mobile support
 
-###### Version 2.0 - 25 Jun 2014
+###### Version 1.9 - 17 Jun 2014
 * + /project
 * +		 	/georate
 
-###### Version 1.9 - 17 Jun 2014
-* +* /CV
+###### Version 1.8 - 17 Jun 2014
+* +* /CV -->
 
-###### Version 1.8 - 14 Jun 2014
-* * blog nav-bar
-
-###### Version 1.7 - 13 Jun 2014
-* * top .index add about screen
+###### Version 1.7 - 15 Jun 2014
+* + home screen without:
+* * header, new about text
+* *	mini refactoring gravatar
+* * nav-menu
 
 ###### Version 1.6 - 11 Jun 2014
 * :scissors: sass refactoring

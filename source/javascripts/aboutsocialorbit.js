@@ -10,3 +10,15 @@
         }
     };
 }).call(this);
+// Slow scroolTo #blog
+      $(function() {
+    $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+        $target = $(target);
+        // $('html, body').stop().animate( {
+        $('html, body').animate({
+            'scrollTop': $target.offset().top
+        },400);
+    } );
+} );

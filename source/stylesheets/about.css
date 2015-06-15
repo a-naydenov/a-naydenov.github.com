@@ -12,10 +12,6 @@ a:hover, a:focus {
 }
 
 .icn-grafotar:hover, .featured .icn-grafotar:focus,  .icn-grafotar:hover, .icn-rss,.icn-gh, .icn-ml, .icn-tw {
-	-webkit-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-moz-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-ms-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-o-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
 	transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
 	background: #c6c6c6 url('../images/icons.png') no-repeat;
 	border-radius: 50%;
@@ -24,10 +20,6 @@ a:hover, a:focus {
 	width: 30px
 }
 .icn-grafotar:hover,.icn-rss, .icn-gh,.icn-ml,.icn-tw {
-	-webkit-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-moz-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-ms-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
-	-o-transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
 	transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
 	background: #c6c6c6 url('../images/icons.png') no-repeat;
 	border-radius: 50%;
@@ -66,9 +58,10 @@ a:hover, a:focus {
 	position: relative;
 }
 .grafotar li {
-	width: 150px;
+	width: 300px;
 	padding: 0;
-}grafotar li:hover .thumb {
+}
+.grafotar li:hover .thumb {
 	background: #fff
 }
 .grafotar li:hover img {
@@ -94,10 +87,6 @@ a:hover, a:focus {
 	background-color: #c6c6c6
 }
 .grafotar .thumb {
-	-webkit-transition: background-color 0.5s ease-in-out;
-	-moz-transition: background-color 0.5s ease-in-out;
-	-ms-transition: background-color 0.5s ease-in-out;
-	-o-transition: background-color 0.5s ease-in-out;
 	transition: background-color 0.5s ease-in-out;
 	background: #dfdfdf;
 	border: 10px solid #fff;
@@ -108,10 +97,10 @@ a:hover, a:focus {
 	position: relative
 }
 .grafotar img {
-	-webkit-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out; 
-	-moz-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
-	-ms-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+	/*-webkit-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out; */
+	/*-moz-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;*/
+	/*-ms-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;*/
+	/*-o-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;*/
 	transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
 	border-radius: 50%;
 	display: block;
