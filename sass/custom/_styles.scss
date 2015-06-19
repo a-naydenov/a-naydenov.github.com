@@ -248,28 +248,28 @@ article a[rel=bookmark] {
   }
 }
 
-// About
-h1 {
-  font-size: 0.6em;
-}
+// // About
+// h1 {
+//   font-size: 0.6em;
+// }
 
-.grafotar {
-  float: left;
-}
-@media (max-width: 490px) {
-.about {
-  clear: both;
-  display: block;
-} 
-}
-.line {
-  padding: 1em;}
-div.line + div.line {
-  background: $img-border top left repeat-x;
-  margin-top: 2em;
-} 
-.dot {
-  padding: 1em;
-  background: $img-border top left repeat-x;
-  margin-top: 2em;
-}
+// .grafotar {
+//   float: left;
+// }
+// @media (max-width: 490px) {
+// .about {
+//   clear: both;
+//   display: block;
+// } 
+// }
+// .line {
+//   padding: 1em;}
+// div.line + div.line {
+//   background: $img-border top left repeat-x;
+//   margin-top: 2em;
+// } 
+// .dot {
+//   padding: 1em;
+//   background: $img-border top left repeat-x;
+//   margin-top: 2em;
+// }

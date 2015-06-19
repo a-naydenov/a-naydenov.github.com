@@ -16,7 +16,7 @@
 	z-index:999
 	display:block;
 	margin:0 auto -1.5em;
-	max-width:1440px;
+	max-width:1000px;
 	padding:4.4em 0 0
 }
 	@media screen and (max-width:568px)
@@ -38,12 +38,12 @@
 }
 .header.header--home .header__tagline
 {
-	font-size:1.2em;
+	font-size:1em;
 	line-height:1.5;
 	/*font-weight:700;*/
 	max-width:1440px;
 	/*padding:3.6em 10%*/
-	padding:3.6em
+	padding:1.6em 1em 1.6em 1em; 
 }
 	@media screen and (max-width:568px)
 {
@@ -55,7 +55,7 @@
 }
 
 }
-	@media screen and (max-width:568px) and (max-width:568px)
+	@media screen and (max-width:568px)
 {
 .header.header--home .header__tagline
 {
@@ -73,8 +73,7 @@
 	left:0;
 	/*padding:0 10%*/
 }
-	@media screen and (max-width:568px)
-{
+	@media screen and (max-width:568px) {
 .header.header--home .header__links
 {
 	bottom:1.6em
@@ -101,6 +100,7 @@
 }
 
 /*gravatar */
+
 ul {
 	list-style: none
 }
@@ -108,9 +108,10 @@ ul {
 	color: transparent;
 	font: 0/0 a
 }
-a {
-	text-decoration: none
-}
+.header__tagline a {
+	border-bottom: 1px solid #c7c7c7;
+	cursor: help;
+ }
 a:hover, a:focus {
 }
 
@@ -161,14 +162,14 @@ a:hover, a:focus {
 	position: relative;
 }
 .ava {
-	
+
 }
 .grafotar li {
 	width: 300px;
 	padding: 0;
 }
 .grafotar li:hover .thumb {
-	background: #fff
+	/*background: #fff*/
 }
 .grafotar li:hover img {
 	-webkit-filter: grayscale(100%);
@@ -194,11 +195,11 @@ a:hover, a:focus {
 }
 .grafotar .thumb {
 	transition: background-color 0.5s ease-in-out;
-	background: #dfdfdf;
+	/*background: #dfdfdf;*/
 	border: 10px solid #fff;
 	border-radius: 50%;
 	box-shadow: 0 0 0 1px #dfdfdf;
-	margin: 0 0px 15px;
+	/*margin: 0 0px 15px;*/
 	padding: 1px;
 	position: relative
 }
@@ -240,6 +241,16 @@ a:hover, a:focus {
 	left: 50%;
 	bottom: -20px
 }
+
+ /* @media screen and (min-width: 768) {
+.grafotar {
+ 	display: none; 	
+ }
+.cover {
+	padding-left: 35px !default;
+    padding-right: 35px !default;
+}
+}*/
 /*gravatar end*/
 
 ul.links {
@@ -279,4 +290,28 @@ ul.links {
   	border-bottom: 2px solid #d15fee;
   	transition: all linear 0.3s;
   	-webkit-transition: all linear 0.3s;
+}
+
+/*ы*/
+/*
+.self_photo{
+    position: relative;
+    margin-left: 50%;
+}*/
+
+.photo{
+    background-image: url("../images/avatar.jpg");
+    width: 278px;
+    height: 278px;
+    border-radius: 50%;
+}
+
+.sequence{
+    position: absolute;
+    top: 0px;
+    width: 278px;
+    height: 278px;
+    border-radius: 50%;
+    background-image: url("../images/sequence.jpg");
+    background-position: 0px 0;
 }
