@@ -18,6 +18,7 @@
 }).call(this);
 
 // hover link
+    var $el = $('.grafotar');
       $(function() {
         EL.grafotarHover('.grafotar li a');
       });(function () {
