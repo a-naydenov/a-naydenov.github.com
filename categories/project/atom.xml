@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Project | Блог Найдёнова Анатолия]]></title>
+  <link href="https://naydenov.tk/categories/project/atom.xml" rel="self"/>
+  <link href="https://naydenov.tk/"/>
+  <updated>2016-08-05T16:47:34+08:00</updated>
+  <id>https://naydenov.tk/</id>
+  <author>
+    <name><![CDATA[Найдёнов Анатолий]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Первая версия сайта]]></title>
+    <link href="https://naydenov.tk/first-website-version/"/>
+    <updated>2013-04-13T22:54:00+09:00</updated>
+    <id>https://naydenov.tk/first-website-version</id>
+    <content type="html"><![CDATA[<iframe src="http://coub.com/embed/ebuqh6?muted=false&amp;autostart=false&originalSize=false" allowfullscreen="true" frameborder="0" width="320" height="180" hspace="5" align="right"></iframe>
+
+
+<p>В международный день блогера — 31 августа, завёл репозитарий, changelog и todo-лист сайта на <a href="https://github.com/a-naydenov/a-naydenov.github.com">гитхабе</a>. Прошло ~~9 месяцев (выносил), а это значит, что пришла пора поведать про мажорную, 0.9.0-rc.1 версию сайта. После 44 коммитов есть о чём рассказать, да и времени дофиксить и выкатить гордую 1.0 у меня появиться уже не скоро.</p>
+
+<p>Список ключевых нововведений:</p>
+
+<h3>1 Adaptive design</h3>
+
+<p>Сат подобающим образом отображаеться на всех экранах.
+<img class="center" src="https://dl.dropboxusercontent.com/u/89057283/post/adaptive-demonstration.jpg" width="500"></p>
+
+<p><img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/vk-support-open-graph-protocol.jpg" width="400" title="при указании ссылки, подтягиваеться мета-инф." ></p>
+
+<h3>2 Social buttons and support open graph protocol</h3>
+
+<p>Теперь все посты блога имеют кнопки плюсануть и твитнуть, что вместе с поддержкой opg упрощет упоминание бложега в любой соц.сети, ибо заголовок, описание и илллюстрация поста подтягиваються сами.</p>
+
+<h3>3 Responsive embedded &amp; asyncronous lazy loading video</h3>
+
+<p>Сниппет у меня не один, есть для вставки цитат, картинок с дропбокса и для видео. С видео есть и другая особенность, подсмотренная у ВК. Так как видеофрейм тяжёловесный и подгружать сразу все ролики долго и не рациональн\о, подгружаеться только изображение (youtube thumbnail image), а при клике грузиться уже плеер. Повосторгаться можно на <a href="http://naydenov.tk/videos-for-front-end-dev/">▶ Воскресное видео — 1: Для фронтенд разработчика</a></p>
+
+<h3>4 Twitter cards &amp; embedded tweet</h3>
+
+<p>Зафигачил snippet plugin, позволяющий встраивать в пост твит
+<div class='embed tweet'>Tweet could not be processed</div>
+Такой ёмкой строкой:
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>tweet https://twitter.com/a_naydenov/status/296921141325492225</span></code></pre></td></tr></table></div></figure></notextile></div>
+Так же, твиттер получив мою заявку через неделю благославил на использование их twitter cards.
+Теперь твиты ссылающиеся на мой уютненький отображаються вот в таком, расширенном виде:
+<img class="center" src="https://dl.dropboxusercontent.com/u/89057283/post/twitter-card.png" width="450"></p>
+
+<h3>Страницы обо мне, резюме, фильмотека и книжня</h3>
+
+<p><img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/page-on-different-screens.gif" title="Различия отображения на разных экранах." >
+Ещё появилась страничка <a href="http://naydenov.tk/about/">обо мне</a> в стилистике гугл+; <a href="http://naydenov.tk/cv/">CV</a>;      <br/>
+в ответ на вопрос "Что посмотреть?" появилась <a href="http://naydenov.tk/filmoteka/">таблица Фильмотека</a>;    <br/>
+за несколько выходных вечеров появилась <a href="http://naydenov.tk/books">Книжня</a> (грязный код), аддаптивный под разные экраны, список самых-самых книг из прочитанного. Она явилась подготовительным знакомством с аддаптивными таблицами представления данных, а после присутсвия на докладе Вадима Макеева "Flexbox, теперь понятно" убедился, что поддержка флексбокса браузерами уже на хорошем уровне и учитывая скорость его готовки, имеет смысл его использовать.</p>
+
+<h3>9 Появилось что-то ещё</h3>
+
+<p>Так например птичка наверху теперь реально пархает, а не бьёться в конвульсиях и другое-прочее что не перечислил. И тем не менее, многое осталось прежним, графику под ретину всё так же сохраняю с 25% уровнем качества и с вдвое большим разрешением; колонка текста всё такая же широка; странная гарнитура; завышенный фонт-сайз; кнопка наверх не зафиксированна, а ютиться вместе с поиском внизу страницы.</p>
+
+<p>И весь этот эпос лишь подтверждает, что личный сайт может выступать как отличная площадка для экспериментов и знакомством с различными фреймворками и техниками. Для меня пожалуй, это самая важная его функция.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Un | Блог Найдёнова Анатолия]]></title>
+  <link href="https://naydenov.tk/categories/un/atom.xml" rel="self"/>
+  <link href="https://naydenov.tk/"/>
+  <updated>2016-08-05T16:47:34+08:00</updated>
+  <id>https://naydenov.tk/</id>
+  <author>
+    <name><![CDATA[Найдёнов Анатолий]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Appeared in 1991]]></title>
+    <link href="https://naydenov.tk/its-alternately-brilliant-and-frustrating/"/>
+    <updated>2013-09-14T20:21:00+09:00</updated>
+    <id>https://naydenov.tk/its-alternately-brilliant-and-frustrating</id>
+    <content type="html"><![CDATA[<p><img class="center" src="https://dl.dropboxusercontent.com/u/89057283/post/David_Gay%E2%80%99s_algorithm.png" title="David Gay’s algorithm" ></p>
+]]></content>
+  </entry>
+  
+</feed>

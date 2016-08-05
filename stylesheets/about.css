@@ -1,0 +1,136 @@
+ul {
+	list-style: none
+}
+.icn-grafotar:hover, .featured .icn-grafotar:focus, .icn-rss,.icn-gh, .icn-ml, .icn-tw{
+	color: transparent;
+	font: 0/0 a
+}
+a {
+	text-decoration: none
+}
+a:hover, a:focus {
+}
+
+.icn-grafotar:hover, .featured .icn-grafotar:focus,  .icn-grafotar:hover, .icn-rss,.icn-gh, .icn-ml, .icn-tw {
+	transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+	background: #c6c6c6 url('../images/icons.png') no-repeat;
+	border-radius: 50%;
+	display: block;
+	height: 30px;
+	width: 30px
+}
+.icn-grafotar:hover,.icn-rss, .icn-gh,.icn-ml,.icn-tw {
+	transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+	background: #c6c6c6 url('../images/icons.png') no-repeat;
+	border-radius: 50%;
+	display: block;
+	height: 30px;
+	width: 30px
+}
+.icn-grafotar:hover,.icn-grafotar:hover, .icn-rss:hover, .icn-gh:hover, .icn-ml:hover, .icn-tw:hover, .icn-cursor:focus, .icn-grafotar:focus, .icn-random:focus, .featured .icn-grafotar:focus:hover, .featured .icn-grafotar:focus, .icn-rss:focus, .icn-gh:focus, .icn-ml:focus, .icn-tw:focus {
+	border-bottom: 0
+}
+.icn-cursor {
+	background-color: #ec6730;
+	background-position: 11px -529px
+}
+.icn-grafotar {
+	background-color: #95c93d;
+	background-position: 8px -555px
+}
+.icn-grafotar:hover, .featured .icn-grafotar:focus {
+	background-color: #12b1d9;
+	background-position: 6px -364px
+}
+.icn-rss {
+	background-position: 5px -256px
+}
+.icn-gh {
+	background-position: 10px -456px
+}
+.icn-ml {
+	background-position: 7px -555px
+}
+.icn-tw {
+	background-position: 7px -431px
+}
+#fringle {
+	position: relative;
+}
+.grafotar li {
+	width: 300px;
+	padding: 0;
+}
+.grafotar li:hover .thumb {
+	background: #fff
+}
+.grafotar li:hover img {
+	-webkit-filter: grayscale(100%);
+	opacity: 0.6
+}
+.grafotar li:hover a {
+	opacity: 1
+}
+.grafotar li:hover .icn-gh {
+	background-color: #4b4b4b
+}
+.grafotar li:hover .icn-tw {
+	background-color: #12b1d9
+}
+.grafotar li:hover .icn-rss {
+	background-color: #fe9900
+}
+.grafotar li:hover .icn-ml {
+	background-color: #c5376d
+}
+.grafotar li:hover .inactive {
+	background-color: #c6c6c6
+}
+.grafotar .thumb {
+	transition: background-color 0.5s ease-in-out;
+	background: #dfdfdf;
+	border: 10px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #dfdfdf;
+	margin: 0 0px 15px;
+	padding: 1px;
+	position: relative
+}
+.grafotar img {
+	/*-webkit-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out; */
+	/*-moz-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;*/
+	/*-ms-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;*/
+	/*-o-transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;*/
+	transition: opacity 0.5s ease-in-out, -webkit-filter 0.5s ease-in-out;
+	border-radius: 50%;
+	display: block;
+	max-width: 100%;
+}
+.grafotar a {
+	opacity: 0.7;
+	z-index: 1
+}
+.grafotar .icn-gh {
+	margin-top: -15px;
+	position: absolute;
+	top: 50%;
+	left: -20px
+}
+.grafotar .icn-tw {
+	margin-top: -15px;
+	position: absolute;
+	top: 50%;
+	right: -20px
+}
+.grafotar .icn-rss {
+	margin-left: -15px;
+	position: absolute;
+	left: 50%;
+	top: -20px
+}
+.grafotar .icn-ml {
+	margin-left: -15px;
+	position: absolute;
+	left: 50%;
+	bottom: -20px
+}
