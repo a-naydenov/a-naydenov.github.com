@@ -1,3 +1,4 @@
+# coding: utf-8
 # hacked from http://www.dotnetguy.co.uk/post/2012/06/25/octopress-category-list-plugin/
 # source https://kaworu.ch/blog/2013/09/23/categories-page-with-octopress/
 module Jekyll
