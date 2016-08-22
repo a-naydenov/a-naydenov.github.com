@@ -4,6 +4,7 @@ title: "night geekfest'14"
 date: 2014-08-2 21:25
 comments: false
 categories: Geekfest
+featured: true
 description: Раз ни @kobelkov_ilya, @svartalf или the-province не пишут, то мои впечатление от капитана участвующей комадны
 cover: http://geekfest.ru/night14/img/logo.png
 ---

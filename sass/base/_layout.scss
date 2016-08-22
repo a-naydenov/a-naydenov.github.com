@@ -15,8 +15,8 @@ $sidebar-width-wide: 300px !default;
 $indented-lists: false !default;
 
 $header-font-size: 1em !default;
-$header-padding-top: 1.5em !default;
-$header-padding-bottom: 1.5em !default;
+$header-padding-top: 1.1em !default;
+$header-padding-bottom: 1.1em !default;
 
 .group { @include pie-clearfix; }
 
@@ -228,7 +228,7 @@ height:15px;
 }
 
 ::-webkit-scrollbar {
-    background-color:white;
+    background-color:#f9f8f6;
     width: 10px;
     height: 10px;
 }
@@ -237,7 +237,7 @@ height:15px;
     height: 0px;
 }
 ::-webkit-scrollbar-track-piece {
-    background-color:white;
+    background-color:#f9f8f6w;
     -webkit-border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:vertical {

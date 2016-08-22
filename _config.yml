@@ -3,19 +3,19 @@
 # ----------------------- #
 
 url: http://a-naydenov.github.com
-enforce_ssl: naydenov.tk
+enforce_ssl: blog.naydenov.tk
 
 title: Блог Найдёнова Анатолия
 subtitle: 
 author: Найдёнов Анатолий
-simple_search: //google.com/search
+# simple_search: //google.com/search
 # description: Персональный блог Найденова Анатолия
-keywords: иркутск, блог, найденов анатолий
+keywords: найденов анатолий, блог, иркутск
 
 date_format: "ordinal"
 
 subscribe_rss: /atom.xml
-subscribe_email:
+# subscribe_email:
 # RSS feeds can list your email address if you like
 # email:
 

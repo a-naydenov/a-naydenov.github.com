@@ -17,7 +17,7 @@ article {
       margin: 0;
       &.meta {
         @extend .sans;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         position: absolute; top: 0;
       }
     }
@@ -27,6 +27,89 @@ article {
       background: $img-border bottom left repeat-x;
     }
   }
+
+//   // 1
+//   .feature {
+//     position: absolute;
+//     right: 0;
+//     display: inline-block;
+//     padding: 7px 15px;
+//     background: #fff;
+//     color: #78a300;
+//     -webkit-border-radius: 4px 4px;
+//     -moz-border-radius: 4px 4px;
+//     border-radius: 4px 4px;
+// }
+//    .feature:hover span {
+//     display: inline;
+//     opacity: 1;
+// }
+// .feature span {
+//     color: #78a300;
+//     margin-right: 15px;
+//     opacity: 0;
+// }
+
+
+// .feature span{
+//   color:#78a300;
+//   margin-right:15px;
+//   opacity:0
+//   }
+//   @media screen and (max-width: 595px){
+//     .posts article.featured .feature span{
+//       display:none
+//     }
+//   }
+
+
+// .featured {
+//     // display: none;
+// }
+// .feature:hover span {
+//     display: inline;
+//     opacity: 1;
+// }
+.close-ribbon{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 1;
+  color: #eee;
+  font-size: 1em;
+  width: 1.5em;
+  line-height: 0.5em;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+.close-ribbon:after {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  height: 1.2em;
+  border: 1.5em solid #F44336;
+  z-index: -1;
+  border-top-width: 1.5em;
+  border-bottom-color: transparent;
+  right: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.close-ribbon:hover:after{
+  border: 1.5em solid #EF5350;
+  border-bottom-color: transparent;
+  height: 1.6em;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.close-ribbon:hover{
+  line-height: 0.9em;
+  color: #333;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+  // 1
+
   h2 {
     padding-top: 0.6em;
     // background: $img-border top left repeat-x;
@@ -138,7 +221,7 @@ article + article {
     &:hover {
       background: $link-border-bottom-hover;
       text-shadow: none;
-      color: $main-bg;  
+      color: $text-color;  
     }
   }
 

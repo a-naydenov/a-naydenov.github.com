@@ -1,15 +1,36 @@
 {% unless page.no_header %}
   <header>
     {% if index %}
-      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}{% if post.featured == true %}&nbsp;★{% endif %}</a></h1>
     {% else %}
       <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% endif %}
     {% unless page.meta == false %}
+
       <p class="meta">
         {% include post/date.html %}{{ time }}
         • 
         {% include post/categories.html %}
+        •
+        <span class="eta"></span> на прочтение
+
+    <!-- bug -->
+    <script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'"));
+    }
+    </script>
+
+    <script src="https://cdn.rawgit.com/michael-lynch/reading-time/master/src/readingTime.js"></script>
+    <script>
+      $(function() {
+        $('article').readingTime({
+          wordCountTarget: '.words',
+          lang: 'ru',
+        });     
+      });  
+    </script>
+
         {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
          | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Комментарии</a>
         {% endif %}
