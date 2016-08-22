@@ -1,11 +1,20 @@
 ## Changelog
 
+<!-- ###### Version 2.2.4 - August 2016
+* move subdomain
+* - gravatar and about block, CV, etc
+* *change* color, styles
+
+<!-- ###### Version 2.1 - Jun 2015
+* + gravatar and about block
+* + https
+
 <!-- ###### Version 2.0 - 25 Jun 2014
 * * mobile support
 
 ###### Version 1.9 - 17 Jun 2014
 * + /project
-* +		 	/georate
+* +	/georate
 
 ###### Version 1.8 - 17 Jun 2014
 * +* /CV -->
@@ -29,7 +38,6 @@
 
 ###### Version 1.3 - 8 April 2014
 * + Integration Travic-CI & Prose.io
-
 
 ###### Version 1.2 - 19 March 2014
 * + Swiftype search pugin
@@ -76,7 +84,7 @@
 * Simplified code in a few areas.
 * + up button in footer
 * new scroll style
-* + search (DuckDuckGo оказался не хуже гугла, но всё же гуглъ)
+* + search from DuckDuckGo
 
 ###### Version 0.3 - Octember  2012
 * Customization template

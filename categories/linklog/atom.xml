@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Linklog | Блог Найдёнова Анатолия]]></title>
-  <link href="https://naydenov.tk/categories/linklog/atom.xml" rel="self"/>
-  <link href="https://naydenov.tk/"/>
-  <updated>2016-08-05T16:47:34+08:00</updated>
-  <id>https://naydenov.tk/</id>
+  <link href="http://a-naydenov.github.com/categories/linklog/atom.xml" rel="self"/>
+  <link href="http://a-naydenov.github.com/"/>
+  <updated>2016-08-22T21:24:09+08:00</updated>
+  <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #7 | Куда движутся блоги?]]></title>
-    <link href="https://naydenov.tk/linklog-7-where-to-move-blogs/"/>
+    <link href="http://a-naydenov.github.com/linklog-7-where-to-move-blogs/"/>
     <updated>2013-08-10T21:57:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-7-where-to-move-blogs</id>
+    <id>http://a-naydenov.github.com/linklog-7-where-to-move-blogs</id>
     <content type="html"><![CDATA[<p>В июне  разворачивал парочку крутых блогов. Тогда же довелось поработать с Fabric и под это дело, был проведён беглый рисёрч актуальных блог-платформ, так что, саммари для ожидающих или кто хочет себе простой блог:</p>
 
 <!-- more -->
@@ -55,9 +55,9 @@
   
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #6 | Программерские гифки]]></title>
-    <link href="https://naydenov.tk/linklog-6-programmers-gifs/"/>
+    <link href="http://a-naydenov.github.com/linklog-6-programmers-gifs/"/>
     <updated>2013-07-23T17:34:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-6-programmers-gifs</id>
+    <id>http://a-naydenov.github.com/linklog-6-programmers-gifs</id>
     <content type="html"><![CDATA[<p>Тумблеры c околопрограммерскими гифками.</p>
 
 <ul>
@@ -80,9 +80,9 @@
   
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #5 | Кинопроизводство]]></title>
-    <link href="https://naydenov.tk/linklog-5-filmmaking/"/>
+    <link href="http://a-naydenov.github.com/linklog-5-filmmaking/"/>
     <updated>2013-07-12T22:10:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-5-filmmaking</id>
+    <id>http://a-naydenov.github.com/linklog-5-filmmaking</id>
     <content type="html"><![CDATA[<ul>
 <li><a href="https://vimeo.com/68451324">▶ Визуальные эффекты фильма Великий Гетсби</a></li>
 <li><a href="http://goo.gl/HMe1K">Как создавались звуки в Терминаторе</a></li>
@@ -96,9 +96,9 @@
   
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #4 | Архитектура высоконагруженных сервисов]]></title>
-    <link href="https://naydenov.tk/linklog-4-backend-architecture/"/>
+    <link href="http://a-naydenov.github.com/linklog-4-backend-architecture/"/>
     <updated>2013-07-07T21:39:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-4-backend-architecture</id>
+    <id>http://a-naydenov.github.com/linklog-4-backend-architecture</id>
     <content type="html"><![CDATA[<p>5 самых занятных описаний бэкэндов хайлоад-мастадонтов:</p>
 
 <ul>
@@ -117,9 +117,9 @@
   
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #3 | Визуализация]]></title>
-    <link href="https://naydenov.tk/linklog-3-visualization/"/>
+    <link href="http://a-naydenov.github.com/linklog-3-visualization/"/>
     <updated>2013-04-20T22:48:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-3-visualization</id>
+    <id>http://a-naydenov.github.com/linklog-3-visualization</id>
     <content type="html"><![CDATA[<p><img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/usa-hub.png" width="350" title="Интернет-активность в штатах" ></p>
 
 <ul>

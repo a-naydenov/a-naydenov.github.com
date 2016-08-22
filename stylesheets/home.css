@@ -103,7 +103,7 @@ ul {
 .header__tagline a {
     border-bottom: 1px solid #c7c7c7;
 }
-a:hover,
+/*a:hover,
 a:focus {} .icn-grafotar:hover,
 .featured .icn-grafotar:focus,
 .icn-grafotar:hover,
@@ -245,7 +245,7 @@ a:focus {} .icn-grafotar:hover,
     position: absolute;
     left: 50%;
     bottom: -20px
-}
+}*/
 /* @media screen and (min-width: 768) {
 .grafotar {
  	display: none; 	

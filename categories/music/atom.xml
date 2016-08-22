@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Music | Блог Найдёнова Анатолия]]></title>
-  <link href="https://naydenov.tk/categories/music/atom.xml" rel="self"/>
-  <link href="https://naydenov.tk/"/>
-  <updated>2016-08-05T16:47:34+08:00</updated>
-  <id>https://naydenov.tk/</id>
+  <link href="http://a-naydenov.github.com/categories/music/atom.xml" rel="self"/>
+  <link href="http://a-naydenov.github.com/"/>
+  <updated>2016-08-22T21:24:09+08:00</updated>
+  <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[♫ Топ треков 2012 года]]></title>
-    <link href="https://naydenov.tk/the-top-tracks-of-2012/"/>
+    <link href="http://a-naydenov.github.com/the-top-tracks-of-2012/"/>
     <updated>2013-01-04T19:44:00+09:00</updated>
-    <id>https://naydenov.tk/the-top-tracks-of-2012</id>
+    <id>http://a-naydenov.github.com/the-top-tracks-of-2012</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://dl.dropbox.com/u/89057283/post/compilation_top_track_2012_cover.jpg" width="427" height="303" title="адовый кавёр" >
 Друзья, вот и выкладываю свою компиляцию лучших треков 2012 года.</p>
 

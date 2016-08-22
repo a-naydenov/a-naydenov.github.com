@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Film | Блог Найдёнова Анатолия]]></title>
-  <link href="https://naydenov.tk/categories/film/atom.xml" rel="self"/>
-  <link href="https://naydenov.tk/"/>
-  <updated>2016-08-05T16:47:34+08:00</updated>
-  <id>https://naydenov.tk/</id>
+  <link href="http://a-naydenov.github.com/categories/film/atom.xml" rel="self"/>
+  <link href="http://a-naydenov.github.com/"/>
+  <updated>2016-08-22T21:24:09+08:00</updated>
+  <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Сериал "Отдел новостей"]]></title>
-    <link href="https://naydenov.tk/the-newsroom/"/>
+    <link href="http://a-naydenov.github.com/the-newsroom/"/>
     <updated>2013-07-13T21:53:00+09:00</updated>
-    <id>https://naydenov.tk/the-newsroom</id>
+    <id>http://a-naydenov.github.com/the-newsroom</id>
     <content type="html"><![CDATA[<p>За этот год, я посмотрел три динамичных сезона трёх неплохих сериалов. Завтра выходит второй сезон самого неоднозначного из них — The newsroom, что и побудило меня написать о нём.
 <img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/news-dont_good_tv.gif"></p>
 

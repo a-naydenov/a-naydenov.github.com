@@ -14,7 +14,7 @@
 <head>
   <meta charset="utf-8">
   <script type="text/javascript">
-    var host = "naydenov.tk";
+    var host = "blog.naydenov.tk";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
   </script>
@@ -57,7 +57,7 @@
     })();
   </script>
 
-  <meta property="og:url" content="https://naydenov.tk/my-elect/">
+  <meta property="og:url" content="http://a-naydenov.github.com/my-elect/">
 <meta property="og:locale" content="ru_RU" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Мой выбор">
@@ -66,6 +66,8 @@
 <meta property="twitter:card" content="summary"/>
 <meta property="twitter:site" content="@a_naydenov">
 <meta property="twitter:title" content="Мой выбор"/>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</script>
 </head>
 
 <body   >
@@ -74,15 +76,15 @@
 
   <div class="blog">
   <header role="banner"><div class="title">
-	<h1><a rel="home" id="blog" href="/#blog">О жизне, работе и думы</a></h1>
+	<h1><a rel="home" id="blog" href="/#blog">Блог Найдёнова Анатолия</a></h1>
 </div>
 <nav role="navigation"><ul>
   <!-- <li><div class="twicontainer" title="in an eye">
   <div class="twitter-bird step"><a href="https://twitter.com/a_naydenov"  target="_blank" alt="twitter">&nbsp; &#183;</a></div>
 </div></li> -->
-  <!-- <li><a href="/about">&nbsp; Обо мне</a></li> -->
-  <li><a href="/blog/categories">Темы</a></li>
-  <!-- <li> • </li> -->
+  <li><a href="https://naydenov.tk/">&nbsp; Обо мне</a></li>
+  <li> • </li>
+  <li><a href="/blog/categories">Тэги</a></li>
   <!-- <li><a href="/blog/archives">Архив</a></li> -->
 </ul></nav></header>
   <div id="main">
@@ -95,6 +97,7 @@
       <h1 class="entry-title">Мой выбор</h1>
     
     
+
       <p class="meta">
         
 
@@ -109,6 +112,36 @@
 
 
 <time datetime="2013-05-25T21:59:00+09:00" pubdate data-updated="true">Сб, 25 Май 2013</time>
+        • 
+        
+
+<span class="categories">
+  
+    <a class='category' href='/categories/life/'>Life</a>
+  
+</span>
+
+
+        •
+        <span class="eta"></span> на прочтение
+
+    <!-- bug -->
+    <script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+        document.write(unescape("script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'"));
+    }
+    </script>
+
+    <script src="https://cdn.rawgit.com/michael-lynch/reading-time/master/src/readingTime.js"></script>
+    <script>
+      $(function() {
+        $('article').readingTime({
+          wordCountTarget: '.words',
+          lang: 'ru',
+        });     
+      });  
+    </script>
+
         
       </p>
     
@@ -191,9 +224,9 @@
 <div id="center"> 
 </div>
 <div id="right">
-<form action="//google.com/search" method="get">
+<form action="" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:naydenov.tk" />
+    <input type="hidden" name="q" value="site:a-naydenov.github.com" />
     <input id="st-search-input" class="search" type="text" name="q" results="0" placeholder=""/>
   </fieldset>
   </form>
@@ -228,10 +261,10 @@
  -->
 <!-- 
  -->
-
-
-
-
+<!-- 
+ -->
+<!-- 
+ -->
   </div>
 </body>
 </html>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Video | Блог Найдёнова Анатолия]]></title>
-  <link href="https://naydenov.tk/categories/video/atom.xml" rel="self"/>
-  <link href="https://naydenov.tk/"/>
-  <updated>2016-08-05T16:47:34+08:00</updated>
-  <id>https://naydenov.tk/</id>
+  <link href="http://a-naydenov.github.com/categories/video/atom.xml" rel="self"/>
+  <link href="http://a-naydenov.github.com/"/>
+  <updated>2016-08-22T21:24:09+08:00</updated>
+  <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[▶ Воскресное видео — 2: О производстве]]></title>
-    <link href="https://naydenov.tk/videos-on-the-production/"/>
+    <link href="http://a-naydenov.github.com/videos-on-the-production/"/>
     <updated>2013-06-23T21:41:00+09:00</updated>
-    <id>https://naydenov.tk/videos-on-the-production</id>
+    <id>http://a-naydenov.github.com/videos-on-the-production</id>
     <content type="html"><![CDATA[<p>5 видео о создании разных предметов</p>
 
 <ul>
@@ -33,9 +33,9 @@
   
   <entry>
     <title type="html"><![CDATA[▶ Воскресное видео — 1: Для фронтенд разработчика]]></title>
-    <link href="https://naydenov.tk/videos-for-front-end-dev/"/>
+    <link href="http://a-naydenov.github.com/videos-for-front-end-dev/"/>
     <updated>2013-02-03T22:02:00+09:00</updated>
-    <id>https://naydenov.tk/videos-for-front-end-dev</id>
+    <id>http://a-naydenov.github.com/videos-for-front-end-dev</id>
     <content type="html"><![CDATA[<p>5 видео для интересующихся веб-разработкой.</p>
 
 <iframe width="760" height="315" src="https://www.youtube.com/embed/h4QuJ0xBGfc" frameborder="0" allowfullscreen></iframe>

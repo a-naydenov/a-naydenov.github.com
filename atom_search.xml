@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Блог Найдёнова Анатолия]]></title>
-  <link href="https://naydenov.tk/atom.xml" rel="self"/>
-  <link href="https://naydenov.tk/"/>
-  <updated>2016-08-05T16:47:34+08:00</updated>
-  <id>https://naydenov.tk/</id>
+  <link href="http://a-naydenov.github.com/atom.xml" rel="self"/>
+  <link href="http://a-naydenov.github.com/"/>
+  <updated>2016-08-22T21:24:09+08:00</updated>
+  <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
     
@@ -16,9 +16,9 @@
   <entry>
     <title type="html"><![CDATA[night geekfest'14]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/night-geekfest14/"/>
+    <link href="http://a-naydenov.github.com/night-geekfest14/"/>
     <updated>2014-08-02T21:25:00+09:00</updated>
-    <id>https://naydenov.tk/night-geekfest14</id>
+    <id>http://a-naydenov.github.com/night-geekfest14</id>
     <content type="html"><![CDATA[<p>Считал, что кто-то конечно же напишет night geekfest, но чёт никто не. Так что вот, мои впечатления.</p>
 
 <p>Подготовка. Изначально и участвовать не собирался, считая, что подбирать разноплановую команду в сезон отпусков, определять роли, план это все долго, но потом в пробке вспомнил слова Голодного &#8220;давай собирай команду&#8221; и все же на выходной вечер за неделю до найта забил в таск-трекер обдумать это дело. И таки организовались за один вечер!</p>
@@ -33,7 +33,7 @@
 Но уже на вступительном слове стало ощутимо, что &#8220;чистые носки, тапочки и шорты по желанию&#8221; это не для пляжного афтепати и что ночь будет не только жаркой, но ещё и душной.
 Дп и к тому же, нехватало свободного пространства на презентации проектов. Ну и кухня, конечно же, закрывшись к полпервому обеспечила посетителей слате и сабвэю. Поэтому, ночные заведения которые больше и где есть подиум (например Амстел или Ханс) считаю более подходящими для проведения хакатонов. А, ну музыка была ок-да, в том плане что тихая.</p>
 
-<iframe src="https://naydenov.tk//instagram.com/p/q8_PIuENLv/embed/" width="612" height="710" frameborder="0" scrolling="no" float="left" allowtransparency="true" position=></iframe>
+<iframe src="http://a-naydenov.github.com//instagram.com/p/q8_PIuENLv/embed/" width="612" height="710" frameborder="0" scrolling="no" float="left" allowtransparency="true" position=></iframe>
 
 
 <p>Интернет уже традиционно предоставлен «ДСИ» и&#8230; поругать не могу, стабильный канал, хоть и были дважды моменты, когда коммит пушился попытки с пятой, что считаю несущественным.</p>
@@ -47,10 +47,10 @@
 
 <p>К вопросу об организации. Здесь пожалуй лишь одно — нужны предоставить равные условия для презентации. Некоторым дали больше времени и они прокликали весь проект, когда другие не успели раскрыть сути (не успел до слайда о стеке технологий даже дотыкать:)). Конечно слово коррупция звучало и не раз, хоть чаще от получающего призы чем от публики.</p>
 
-<p>На мой взгляд в представлении проектов не хватало общей структурности, конечно забавное единство показали участники запуская утром слайды, когда как в анонсе было &#8220;продемонстрировать его всем остальным — без всяких презентаций, на живую&#8221;. Но результаты голосования будут объективней если представляющие будут придерживаться единой структуры. К примеру чтобы были ответы на такие вопросы как: что использовали, что планировали и успели/не успели и как будут доделывать. И с планируемой датой релиза <img alt="angry" src="https://naydenov.tk/images/emoji/unicode/1f620.png" class="emoji" />, а то мотивационный пинок к участию это реализация вечно откладываемых задумок, а на утро большинство проектов все равно ушли &#8220;в стол&#8221;.</p>
+<p>На мой взгляд в представлении проектов не хватало общей структурности, конечно забавное единство показали участники запуская утром слайды, когда как в анонсе было &#8220;продемонстрировать его всем остальным — без всяких презентаций, на живую&#8221;. Но результаты голосования будут объективней если представляющие будут придерживаться единой структуры. К примеру чтобы были ответы на такие вопросы как: что использовали, что планировали и успели/не успели и как будут доделывать. И с планируемой датой релиза <img alt="angry" src="http://a-naydenov.github.com/images/emoji/unicode/1f620.png" class="emoji" />, а то мотивационный пинок к участию это реализация вечно откладываемых задумок, а на утро большинство проектов все равно ушли &#8220;в стол&#8221;.</p>
 
 <p>Спонсорские призы.
-Помимо традиционного для гикфеста пакета с блокнотом и ручкой, коих девать уже некуда и прочим спонсорским стаффом, в этот раз были действительно полезные вещи. Как-то персональные и командные карточки от хостера flops.ru — считаю очень уместным подарком от самого удачного хостера в россии. Вот бы ещё скидочную карточку от регистратора доменов <img alt="wink" src="https://naydenov.tk/images/emoji/unicode/1f609.png" class="emoji" />, чтобы больше проектов с гикнайта увидели бы свет.
+Помимо традиционного для гикфеста пакета с блокнотом и ручкой, коих девать уже некуда и прочим спонсорским стаффом, в этот раз были действительно полезные вещи. Как-то персональные и командные карточки от хостера flops.ru — считаю очень уместным подарком от самого удачного хостера в россии. Вот бы ещё скидочную карточку от регистратора доменов <img alt="wink" src="http://a-naydenov.github.com/images/emoji/unicode/1f609.png" class="emoji" />, чтобы больше проектов с гикнайта увидели бы свет.
 По призам все было скудно и они скучнейшие, кроме опять же карт от флопса на десятки тысяч, ну и квадракоптер да, прикольная штука.</p>
 
 <p>Собственный результат.
@@ -63,9 +63,9 @@
   <entry>
     <title type="html"><![CDATA[Мааам, чё есть поесть?]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/independent-and-assertive/"/>
+    <link href="http://a-naydenov.github.com/independent-and-assertive/"/>
     <updated>2014-07-14T17:19:00+09:00</updated>
-    <id>https://naydenov.tk/independent-and-assertive</id>
+    <id>http://a-naydenov.github.com/independent-and-assertive</id>
     <content type="html"><![CDATA[<p>Тебе 20 и ты живёшь с родителями? У-ё-бы-вай, завтра!    <br/>
 Борешься с ленью и начинаешь начинать начинания? Пока у тебя все ровно в жизни, твоя задница припечатана стабильностью, только выход из зоны комфорта её окрылит.</p>
 
@@ -84,9 +84,9 @@
   <entry>
     <title type="html"><![CDATA[Национальность]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/nationality/"/>
+    <link href="http://a-naydenov.github.com/nationality/"/>
     <updated>2014-04-19T23:20:00+09:00</updated>
-    <id>https://naydenov.tk/nationality</id>
+    <id>http://a-naydenov.github.com/nationality</id>
     <content type="html"><![CDATA[<p>С 1 апреля 2014 года новобрачных при заключении брака попросят (добровольно) указывать свою национальность, образование и количество уже имеющихся детей (общих). Аналогичную информацию обяжут (принудительно?) сообщить при разводе. По сообщению, данные нужны для сбора статистики.</p>
 
 <p>Считаю дело верным, государство должно подбивать аналитику. А по свидетельствам о заключении брака, уверен, эльфов, хоббитов и прочих задротов окажется меньше, чем по переписи населения, которая, все таки дорогой способ сбора данных.
@@ -109,9 +109,9 @@
   <entry>
     <title type="html"><![CDATA[Как живется внукам палачей]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/how-to-live-grandchildren-executioner/"/>
+    <link href="http://a-naydenov.github.com/how-to-live-grandchildren-executioner/"/>
     <updated>2014-03-22T23:20:00+09:00</updated>
-    <id>https://naydenov.tk/how-to-live-grandchildren-executioner</id>
+    <id>http://a-naydenov.github.com/how-to-live-grandchildren-executioner</id>
     <content type="html"><![CDATA[<p><img class="left" src="https://dl.dropboxusercontent.com/u/89057283/post/Ralph_Fiennes_in_Schindlers_List_Amon_Goeth.jpg">
 Читал про <a href="http://ru-psiholog.livejournal.com/4840159.html">случай</a>: &#8220;мужчина 45 лет, высокий, подтянутый, успешный, творческий, культурный, образованный. А как он ухаживал!!! Красиво, галантно, романтично&#8230; И вот однажды вечером, он смотрел какое-то политическое ток-шоу (его очень интересовала политика) и очень зло сказал вслух — КАК ЖЕ Я НЕНАВИЖУ ЖИДОВ&#8230; А у меня просто обрушился мир!&#8221;</p>
 
@@ -134,15 +134,15 @@
   <entry>
     <title type="html"><![CDATA[Черная сборная Швеции по бенди и мультикультурализм]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/europes-fraying-multiculturalism/"/>
+    <link href="http://a-naydenov.github.com/europes-fraying-multiculturalism/"/>
     <updated>2014-02-22T22:49:00+09:00</updated>
-    <id>https://naydenov.tk/europes-fraying-multiculturalism</id>
+    <id>http://a-naydenov.github.com/europes-fraying-multiculturalism</id>
     <content type="html"><![CDATA[<p>И в Иркутске и в феврале завершился чемпионат мира по хоккею с мячом, что само по себе знаково. И холодно. Другой примечательностью стал приезд сборной Сомали. Страны, где если у тебя нет верблюда, то ты стало быть, пират.</p>
 
 <p>Появление африканской сборной в зимнем виде спорта заинтересовало до обморожения пальцев. Объяснение оказалось простое, это оттепель. Миграционная. Дебютировшая на чемпионате мира своим вторым офф. матчем сборная, собранна
 из беженцев иммигрировавших в Швецию. Команда сформирована из жителей города Борленге, населенностью 50 тысяч человек, а число не состоявшихся пиратов, воспользовавшихся гостеприимством блондинов неуклонно стремиться к 5%. Что сравнимо с долей бурятов в Иркутской области.</p>
 
-<p>В этом городе проживает и один из ветеранов шведского хоккея с мячом Патрик Андерссон. Сидя в баре с друзьями и обсуждая недовольство погромами (ну а чё ещё), он решает организовать команду. Олоф Лундберг из муниципалитета Бурленге сказал, что в то время когда мы страдаем от безработицы, это создаст нам дополнительные рабочие места <img alt="joy" src="https://naydenov.tk/images/emoji/unicode/1f602.png" class="emoji" />.
+<p>В этом городе проживает и один из ветеранов шведского хоккея с мячом Патрик Андерссон. Сидя в баре с друзьями и обсуждая недовольство погромами (ну а чё ещё), он решает организовать команду. Олоф Лундберг из муниципалитета Бурленге сказал, что в то время когда мы страдаем от безработицы, это создаст нам дополнительные рабочие места <img alt="joy" src="http://a-naydenov.github.com/images/emoji/unicode/1f602.png" class="emoji" />.
 А генеральный секретарь шведской федерации бенди, Маркус Норман сказал следующее: «Мы рассматриваем это как хороший PR для нашего вида спорта». О второй сборной Швеции по хоккею с мячом снимают документальный фильм.</p>
 
 <p>Ознакомление с тамошними газетами показало, что скандинавская имиграционная политика уже подобна французскому репу с арабским припевом.
@@ -172,9 +172,9 @@
   <entry>
     <title type="html"><![CDATA[Пришел лайтпак с кикстартера]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/lightpack/"/>
+    <link href="http://a-naydenov.github.com/lightpack/"/>
     <updated>2014-01-18T20:30:00+09:00</updated>
-    <id>https://naydenov.tk/lightpack</id>
+    <id>http://a-naydenov.github.com/lightpack</id>
     <content type="html"><![CDATA[<p>Есть такой сервис — Kikstarter, круто собирающий деньги, что подтверждают его <a href="http://goo.gl/SulF0j">итоги года</a>. Он позволяет авторам идей выставить на оценку задумки, на которые, бывает вовсе не жалко пожертвовать до сотни баксов и почувствовать себя сопричастным к появлению интересной вещи. Кикстартер способен менять привычный опыт использование вещей. Как к примеру, взять и <a href="http://goo.gl/YDq16q">встроить в руль велосипеда сим-карту</a> или <a href="http://goo.gl/84XO1X">ярко светить колёсами</a>. Но, сегодня не о велосипедах, так что смотрим видео, оно все расскажет:</p>
 
 <p><a href="https://www.youtube.com/watch?v=rcvjVy9zu_0">Видео</a></p>
@@ -194,9 +194,9 @@
   <entry>
     <title type="html"><![CDATA[Appeared in 1991]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/its-alternately-brilliant-and-frustrating/"/>
+    <link href="http://a-naydenov.github.com/its-alternately-brilliant-and-frustrating/"/>
     <updated>2013-09-14T20:21:00+09:00</updated>
-    <id>https://naydenov.tk/its-alternately-brilliant-and-frustrating</id>
+    <id>http://a-naydenov.github.com/its-alternately-brilliant-and-frustrating</id>
     <content type="html"><![CDATA[<p><img class="center" src="https://dl.dropboxusercontent.com/u/89057283/post/David_Gay%E2%80%99s_algorithm.png" title="David Gay’s algorithm" ></p>
 ]]></content>
   </entry>
@@ -204,9 +204,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #7 | Куда движутся блоги?]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/linklog-7-where-to-move-blogs/"/>
+    <link href="http://a-naydenov.github.com/linklog-7-where-to-move-blogs/"/>
     <updated>2013-08-10T21:57:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-7-where-to-move-blogs</id>
+    <id>http://a-naydenov.github.com/linklog-7-where-to-move-blogs</id>
     <content type="html"><![CDATA[<p>В июне  разворачивал парочку крутых блогов. Тогда же довелось поработать с Fabric и под это дело, был проведён беглый рисёрч актуальных блог-платформ, так что, саммари для ожидающих или кто хочет себе простой блог:</p>
 
 <!-- more -->
@@ -245,9 +245,9 @@
   <entry>
     <title type="html"><![CDATA[Another three reasons to affection]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/another-three-reasons-to-affection/"/>
+    <link href="http://a-naydenov.github.com/another-three-reasons-to-affection/"/>
     <updated>2013-08-03T21:41:00+09:00</updated>
-    <id>https://naydenov.tk/another-three-reasons-to-affection</id>
+    <id>http://a-naydenov.github.com/another-three-reasons-to-affection</id>
     <content type="html"><![CDATA[<p>В момент мигрирования с одной операционной системы на другую, настаёт самый подходящий момент для осуществления того, о чём я уже в планах размышлял — сделать свой <del>скворечник</del> «dotfiles repository», пересмотрев и настроив структурированную конфигурацию своего рабочего окружения.</p>
 
 <p>И вот вечером, активно хипстеря на гитхабе, выскакивает:
@@ -270,9 +270,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #6 | Программерские гифки]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/linklog-6-programmers-gifs/"/>
+    <link href="http://a-naydenov.github.com/linklog-6-programmers-gifs/"/>
     <updated>2013-07-23T17:34:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-6-programmers-gifs</id>
+    <id>http://a-naydenov.github.com/linklog-6-programmers-gifs</id>
     <content type="html"><![CDATA[<p>Тумблеры c околопрограммерскими гифками.</p>
 
 <ul>
@@ -296,9 +296,9 @@
   <entry>
     <title type="html"><![CDATA[Сериал "Отдел новостей"]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/the-newsroom/"/>
+    <link href="http://a-naydenov.github.com/the-newsroom/"/>
     <updated>2013-07-13T21:53:00+09:00</updated>
-    <id>https://naydenov.tk/the-newsroom</id>
+    <id>http://a-naydenov.github.com/the-newsroom</id>
     <content type="html"><![CDATA[<p>За этот год, я посмотрел три динамичных сезона трёх неплохих сериалов. Завтра выходит второй сезон самого неоднозначного из них — The newsroom, что и побудило меня написать о нём.
 <img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/news-dont_good_tv.gif"></p>
 
@@ -333,9 +333,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #5 | Кинопроизводство]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/linklog-5-filmmaking/"/>
+    <link href="http://a-naydenov.github.com/linklog-5-filmmaking/"/>
     <updated>2013-07-12T22:10:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-5-filmmaking</id>
+    <id>http://a-naydenov.github.com/linklog-5-filmmaking</id>
     <content type="html"><![CDATA[<ul>
 <li><a href="https://vimeo.com/68451324">▶ Визуальные эффекты фильма Великий Гетсби</a></li>
 <li><a href="http://goo.gl/HMe1K">Как создавались звуки в Терминаторе</a></li>
@@ -350,9 +350,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #4 | Архитектура высоконагруженных сервисов]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/linklog-4-backend-architecture/"/>
+    <link href="http://a-naydenov.github.com/linklog-4-backend-architecture/"/>
     <updated>2013-07-07T21:39:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-4-backend-architecture</id>
+    <id>http://a-naydenov.github.com/linklog-4-backend-architecture</id>
     <content type="html"><![CDATA[<p>5 самых занятных описаний бэкэндов хайлоад-мастадонтов:</p>
 
 <ul>
@@ -372,9 +372,9 @@
   <entry>
     <title type="html"><![CDATA[Об электронной почте]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/about-email/"/>
+    <link href="http://a-naydenov.github.com/about-email/"/>
     <updated>2013-07-04T21:49:00+09:00</updated>
-    <id>https://naydenov.tk/about-email</id>
+    <id>http://a-naydenov.github.com/about-email</id>
     <content type="html"><![CDATA[<p>Сегодня ровно 17 лет с начала коммерческого функционирования почтового сервиса Hotmail и я вот задумался о почте, умирает ли она на самом деле и что ей вообще угрожает.</p>
 
 <h2>В чём особенность почты ?</h2>
@@ -418,9 +418,9 @@
   <entry>
     <title type="html"><![CDATA[▶ Воскресное видео — 2: О производстве]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/videos-on-the-production/"/>
+    <link href="http://a-naydenov.github.com/videos-on-the-production/"/>
     <updated>2013-06-23T21:41:00+09:00</updated>
-    <id>https://naydenov.tk/videos-on-the-production</id>
+    <id>http://a-naydenov.github.com/videos-on-the-production</id>
     <content type="html"><![CDATA[<p>5 видео о создании разных предметов</p>
 
 <ul>
@@ -437,9 +437,9 @@
   <entry>
     <title type="html"><![CDATA[Социальная история]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/social-history/"/>
+    <link href="http://a-naydenov.github.com/social-history/"/>
     <updated>2013-06-15T21:39:00+09:00</updated>
-    <id>https://naydenov.tk/social-history</id>
+    <id>http://a-naydenov.github.com/social-history</id>
     <content type="html"><![CDATA[<p>Полагаю, что в обозримом будущем в обществе окончательно сформулируется такой термин как ~«социальная история» — виртуальное отражение личности. Посты, друзья, лайки и репосты — всё это характеризует человека и может многое рассказать. Уже сейчас люди отождествляют себя со своим профилем в соц.сетях признавая его значимость.</p>
 
 <p>Виртуальное представление схоже с кредитной, налоговой или уголовной историей человека.
@@ -464,9 +464,9 @@
   <entry>
     <title type="html"><![CDATA[Мой выбор]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/my-elect/"/>
+    <link href="http://a-naydenov.github.com/my-elect/"/>
     <updated>2013-05-25T21:59:00+09:00</updated>
-    <id>https://naydenov.tk/my-elect</id>
+    <id>http://a-naydenov.github.com/my-elect</id>
     <content type="html"><![CDATA[<p>Всем людям что-то нравиться, и я всегда знал что нравиться мне и мог об этом рассказать, хоть вообще и удивительно, что многим сложно об этом рассказывать. Утром, откопал заметку составленную в 11 классе и решил её дополнить, как итог получился список предпочтений/личного выбора. Раз в год заметку буду дополнять.</p>
 
 <ul>
@@ -510,9 +510,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #3 | Визуализация]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/linklog-3-visualization/"/>
+    <link href="http://a-naydenov.github.com/linklog-3-visualization/"/>
     <updated>2013-04-20T22:48:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-3-visualization</id>
+    <id>http://a-naydenov.github.com/linklog-3-visualization</id>
     <content type="html"><![CDATA[<p><img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/usa-hub.png" width="350" title="Интернет-активность в штатах" ></p>
 
 <ul>
@@ -529,9 +529,9 @@
   <entry>
     <title type="html"><![CDATA[Первая версия сайта]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/first-website-version/"/>
+    <link href="http://a-naydenov.github.com/first-website-version/"/>
     <updated>2013-04-13T22:54:00+09:00</updated>
-    <id>https://naydenov.tk/first-website-version</id>
+    <id>http://a-naydenov.github.com/first-website-version</id>
     <content type="html"><![CDATA[<iframe src="http://coub.com/embed/ebuqh6?muted=false&amp;autostart=false&originalSize=false" allowfullscreen="true" frameborder="0" width="320" height="180" hspace="5" align="right"></iframe>
 
 
@@ -590,9 +590,9 @@
   <entry>
     <title type="html"><![CDATA[Заметки о Новосибирске]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/notes-about-novosibirsk/"/>
+    <link href="http://a-naydenov.github.com/notes-about-novosibirsk/"/>
     <updated>2013-04-04T19:16:00+09:00</updated>
-    <id>https://naydenov.tk/notes-about-novosibirsk</id>
+    <id>http://a-naydenov.github.com/notes-about-novosibirsk</id>
     <content type="html"><![CDATA[<p>Утром приехал из Новосибирска, где бывал не раз. Основные планы на поездку выполнил, но сумбурности было много. Не посетил зоопарк, мало с кем успел законнектиться.
 По мере пребывания и простоев писал с телефона несвязные заметки с очевидностями. Писал для себя, но решил опубликовать, несмотря на слабую структуру и офографию.
 <img src="http://dl.dropboxusercontent.com/u/89057283/post/Novosibirsk-on-nerves.jpg"></p>
@@ -691,9 +691,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #2 | Геометрия]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/linklog-2-geometry/"/>
+    <link href="http://a-naydenov.github.com/linklog-2-geometry/"/>
     <updated>2013-03-03T23:20:00+09:00</updated>
-    <id>https://naydenov.tk/linklog-2-geometry</id>
+    <id>http://a-naydenov.github.com/linklog-2-geometry</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://dl.dropbox.com/u/89057283/post/apple_logo_golden_ratio.jpg" width="450" height="250" title="типичная сочная, наливная груша" >
 Что общего между орбитой Марса, цветной капустой и логотипом компании apple? — Симметрия!
 Законы единообразия формы, пропорциональность, различного рода отношения зависимостей и пропорций, это то, что по настоящему увлекает. Ещё со школы меня пёрло от чтения про золотое сечения, числа фибонначи и то как это всё скрыто в окружающих вещах. Если ты такой же (задрот), то именно для тебя, я открываю тебе свой ларёк картинок симметричных плоскостей, переломанных в нечто экстраординарное, с кучей острых углов и строго упорядоченных. Not enjoy!</p>
@@ -712,9 +712,9 @@
   <entry>
     <title type="html"><![CDATA[▶ Воскресное видео — 1: Для фронтенд разработчика]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/videos-for-front-end-dev/"/>
+    <link href="http://a-naydenov.github.com/videos-for-front-end-dev/"/>
     <updated>2013-02-03T22:02:00+09:00</updated>
-    <id>https://naydenov.tk/videos-for-front-end-dev</id>
+    <id>http://a-naydenov.github.com/videos-for-front-end-dev</id>
     <content type="html"><![CDATA[<p>5 видео для интересующихся веб-разработкой.</p>
 
 <iframe width="760" height="315" src="https://www.youtube.com/embed/h4QuJ0xBGfc" frameborder="0" allowfullscreen></iframe>
@@ -755,9 +755,9 @@
   <entry>
     <title type="html"><![CDATA[♫ Топ треков 2012 года]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/the-top-tracks-of-2012/"/>
+    <link href="http://a-naydenov.github.com/the-top-tracks-of-2012/"/>
     <updated>2013-01-04T19:44:00+09:00</updated>
-    <id>https://naydenov.tk/the-top-tracks-of-2012</id>
+    <id>http://a-naydenov.github.com/the-top-tracks-of-2012</id>
     <content type="html"><![CDATA[<p><img class="right" src="http://dl.dropbox.com/u/89057283/post/compilation_top_track_2012_cover.jpg" width="427" height="303" title="адовый кавёр" >
 Друзья, вот и выкладываю свою компиляцию лучших треков 2012 года.</p>
 
@@ -779,9 +779,9 @@
   <entry>
     <title type="html"><![CDATA[➎ Ссылки #1 | Полезные веб-сервисы]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/useful-web-services-1/"/>
+    <link href="http://a-naydenov.github.com/useful-web-services-1/"/>
     <updated>2012-12-01T23:41:00+09:00</updated>
-    <id>https://naydenov.tk/useful-web-services-1</id>
+    <id>http://a-naydenov.github.com/useful-web-services-1</id>
     <content type="html"><![CDATA[<p>В рамках ежегодного периода «скучное пора, это не время для курсача» и по мотивам обсуждения <a href="http://www.hopesandfears.com/hopesandfears/all/cloud/118120-vsyo-v-poryadke-6-planirovschikov-zadach-dlya-predprinimateley">Освобождённый разум: 5 планировщиков задач для предпринимателей</a>, решил поделиться пятью сервисами из числа используемых самим и которые, действительно способны стать применимыми в повседневности или же, заменить уже используемые.</p>
 
 <h2>Музыкальные</h2>
@@ -839,9 +839,9 @@
   <entry>
     <title type="html"><![CDATA[Тебе не стоит изучать руби]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/ruby-sucks/"/>
+    <link href="http://a-naydenov.github.com/ruby-sucks/"/>
     <updated>2012-11-14T20:53:00+09:00</updated>
-    <id>https://naydenov.tk/ruby-sucks</id>
+    <id>http://a-naydenov.github.com/ruby-sucks</id>
     <content type="html"><![CDATA[<p><img class="left" src="http://www.ruby-lang.org/images/logo.gif">
 Опять стартап-школа и снова меня заворачивает в технопарк.<br/>
 Да и как вообще можно было не повременить с программой на вечер, если тема доклада была в стиле Джоэла Спольски: «Sinatra — когда нет ничего лишнего» <a href="http://batsuev.com/2012/sinatra/index.html">(презентация)</a>. Тема не вписывалась в формат аудитории, что выступавший и почувствовал. Для себя я так и не ответил на свой вопрос, зачем собравшимся советовать Синатру и о нём слушать?</p>
@@ -918,9 +918,9 @@ Rails это как JUnit в java в своё время &#8211; тоже меш
   <entry>
     <title type="html"><![CDATA[Цифровая дистрибуция]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/digital-distribution/"/>
+    <link href="http://a-naydenov.github.com/digital-distribution/"/>
     <updated>2012-11-07T21:25:00+09:00</updated>
-    <id>https://naydenov.tk/digital-distribution</id>
+    <id>http://a-naydenov.github.com/digital-distribution</id>
     <content type="html"><![CDATA[<p>На втором этапе стартап-школы, буду рубить фишку и смотреть вдаль цифровой дистрибуции контента.</p>
 
 <p>Цифровые дистрибьюторы это, такие сервисы с большой базой лицензионного контента, доступного пользователю удобным ему способом. Олицетворением цифровой дистрибуции сегодня, является <em>Стим, аппстор, амазон и этконтент</em>.</p>
@@ -962,9 +962,9 @@ Rails это как JUnit в java в своё время &#8211; тоже меш
   <entry>
     <title type="html"><![CDATA[Мобильные устройства в будущем]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/mobile-devices-in-the-future/"/>
+    <link href="http://a-naydenov.github.com/mobile-devices-in-the-future/"/>
     <updated>2012-10-23T19:43:00+09:00</updated>
-    <id>https://naydenov.tk/mobile-devices-in-the-future</id>
+    <id>http://a-naydenov.github.com/mobile-devices-in-the-future</id>
     <content type="html"><![CDATA[<p>Пост написан в рамках участия в проекте Стартап-школа.</p>
 
 <p>Представляя будущую индустрию мобильных технологий, ограничусь отрезком времени в пять лет.</p>
@@ -1010,9 +1010,9 @@ Rails это как JUnit в java в своё время &#8211; тоже меш
   <entry>
     <title type="html"><![CDATA[10 лет спустя]]></title>
     <summary><![CDATA[]]></summary>
-    <link href="https://naydenov.tk/10-years-later/"/>
+    <link href="http://a-naydenov.github.com/10-years-later/"/>
     <updated>2012-09-01T03:10:00+09:00</updated>
-    <id>https://naydenov.tk/10-years-later</id>
+    <id>http://a-naydenov.github.com/10-years-later</id>
     <content type="html"><![CDATA[<p>Или Как я вижy своё будущее в 10-летней перспективе.</p>
 
 <p>Дисклеймер: все ниженаписанное как <a href="http://2020strategy.ru/data/2012/03/13/1214585985/itog.pdf">стратегия 2020</a>, здесь цели не прописываю, жизнь по “ленинскому плану” не расписываю, но эти необоснованные предположения могут и сбыться, а вообще, конец света никто не отменял ведь.</p>

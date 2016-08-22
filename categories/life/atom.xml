@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Life | Блог Найдёнова Анатолия]]></title>
-  <link href="https://naydenov.tk/categories/life/atom.xml" rel="self"/>
-  <link href="https://naydenov.tk/"/>
-  <updated>2016-08-05T16:47:34+08:00</updated>
-  <id>https://naydenov.tk/</id>
+  <link href="http://a-naydenov.github.com/categories/life/atom.xml" rel="self"/>
+  <link href="http://a-naydenov.github.com/"/>
+  <updated>2016-08-22T21:24:09+08:00</updated>
+  <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Пришел лайтпак с кикстартера]]></title>
-    <link href="https://naydenov.tk/lightpack/"/>
+    <link href="http://a-naydenov.github.com/lightpack/"/>
     <updated>2014-01-18T20:30:00+09:00</updated>
-    <id>https://naydenov.tk/lightpack</id>
+    <id>http://a-naydenov.github.com/lightpack</id>
     <content type="html"><![CDATA[<p>Есть такой сервис — Kikstarter, круто собирающий деньги, что подтверждают его <a href="http://goo.gl/SulF0j">итоги года</a>. Он позволяет авторам идей выставить на оценку задумки, на которые, бывает вовсе не жалко пожертвовать до сотни баксов и почувствовать себя сопричастным к появлению интересной вещи. Кикстартер способен менять привычный опыт использование вещей. Как к примеру, взять и <a href="http://goo.gl/YDq16q">встроить в руль велосипеда сим-карту</a> или <a href="http://goo.gl/84XO1X">ярко светить колёсами</a>. Но, сегодня не о велосипедах, так что смотрим видео, оно все расскажет:</p>
 
 <p><a href="https://www.youtube.com/watch?v=rcvjVy9zu_0">Видео</a></p>
@@ -36,9 +36,9 @@
   
   <entry>
     <title type="html"><![CDATA[Another three reasons to affection]]></title>
-    <link href="https://naydenov.tk/another-three-reasons-to-affection/"/>
+    <link href="http://a-naydenov.github.com/another-three-reasons-to-affection/"/>
     <updated>2013-08-03T21:41:00+09:00</updated>
-    <id>https://naydenov.tk/another-three-reasons-to-affection</id>
+    <id>http://a-naydenov.github.com/another-three-reasons-to-affection</id>
     <content type="html"><![CDATA[<p>В момент мигрирования с одной операционной системы на другую, настаёт самый подходящий момент для осуществления того, о чём я уже в планах размышлял — сделать свой <del>скворечник</del> «dotfiles repository», пересмотрев и настроив структурированную конфигурацию своего рабочего окружения.</p>
 
 <p>И вот вечером, активно хипстеря на гитхабе, выскакивает:
@@ -60,9 +60,9 @@
   
   <entry>
     <title type="html"><![CDATA[Мой выбор]]></title>
-    <link href="https://naydenov.tk/my-elect/"/>
+    <link href="http://a-naydenov.github.com/my-elect/"/>
     <updated>2013-05-25T21:59:00+09:00</updated>
-    <id>https://naydenov.tk/my-elect</id>
+    <id>http://a-naydenov.github.com/my-elect</id>
     <content type="html"><![CDATA[<p>Всем людям что-то нравиться, и я всегда знал что нравиться мне и мог об этом рассказать, хоть вообще и удивительно, что многим сложно об этом рассказывать. Утром, откопал заметку составленную в 11 классе и решил её дополнить, как итог получился список предпочтений/личного выбора. Раз в год заметку буду дополнять.</p>
 
 <ul>
@@ -105,9 +105,9 @@
   
   <entry>
     <title type="html"><![CDATA[Заметки о Новосибирске]]></title>
-    <link href="https://naydenov.tk/notes-about-novosibirsk/"/>
+    <link href="http://a-naydenov.github.com/notes-about-novosibirsk/"/>
     <updated>2013-04-04T19:16:00+09:00</updated>
-    <id>https://naydenov.tk/notes-about-novosibirsk</id>
+    <id>http://a-naydenov.github.com/notes-about-novosibirsk</id>
     <content type="html"><![CDATA[<p>Утром приехал из Новосибирска, где бывал не раз. Основные планы на поездку выполнил, но сумбурности было много. Не посетил зоопарк, мало с кем успел законнектиться.
 По мере пребывания и простоев писал с телефона несвязные заметки с очевидностями. Писал для себя, но решил опубликовать, несмотря на слабую структуру и офографию.
 <img src="http://dl.dropboxusercontent.com/u/89057283/post/Novosibirsk-on-nerves.jpg"></p>
@@ -205,9 +205,9 @@
   
   <entry>
     <title type="html"><![CDATA[10 лет спустя]]></title>
-    <link href="https://naydenov.tk/10-years-later/"/>
+    <link href="http://a-naydenov.github.com/10-years-later/"/>
     <updated>2012-09-01T03:10:00+09:00</updated>
-    <id>https://naydenov.tk/10-years-later</id>
+    <id>http://a-naydenov.github.com/10-years-later</id>
     <content type="html"><![CDATA[<p>Или Как я вижy своё будущее в 10-летней перспективе.</p>
 
 <p>Дисклеймер: все ниженаписанное как <a href="http://2020strategy.ru/data/2012/03/13/1214585985/itog.pdf">стратегия 2020</a>, здесь цели не прописываю, жизнь по “ленинскому плану” не расписываю, но эти необоснованные предположения могут и сбыться, а вообще, конец света никто не отменял ведь.</p>
