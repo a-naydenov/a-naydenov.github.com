@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/a-naydenov/a-naydenov.github.com.svg?branch=source)](https://travis-ci.org/a-naydenov/a-naydenov.github.com)
+
 ## Changelog
 
 <!-- ###### Version 2.2.4 - August 2016
