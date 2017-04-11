@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Project | Блог Найдёнова Анатолия]]></title>
   <link href="http://a-naydenov.github.com/categories/project/atom.xml" rel="self"/>
   <link href="http://a-naydenov.github.com/"/>
-  <updated>2016-10-06T21:52:17+08:00</updated>
+  <updated>2017-04-11T18:56:14+08:00</updated>
   <id>http://a-naydenov.github.com/</id>
   <author>
     <name><![CDATA[Найдёнов Анатолий]]></name>
@@ -28,9 +28,9 @@
 <h3>1 Adaptive design</h3>
 
 <p>Сат подобающим образом отображаеться на всех экранах.
-<img class="center" src="https://dl.dropboxusercontent.com/u/89057283/post/adaptive-demonstration.jpg" width="500"></p>
+<img class="center" src="http://img.naydenov.tk/post/adaptive-demonstration.jpg" width="500"></p>
 
-<p><img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/vk-support-open-graph-protocol.jpg" width="400" title="при указании ссылки, подтягиваеться мета-инф." ></p>
+<p><img class="right" src="http://img.naydenov.tk/post/vk-support-open-graph-protocol.jpg" width="400" title="при указании ссылки, подтягиваеться мета-инф." ></p>
 
 <h3>2 Social buttons and support open graph protocol</h3>
 
@@ -49,11 +49,11 @@
 </pre></td><td class='code'><pre><code class=''><span class='line'>tweet https://twitter.com/a_naydenov/status/296921141325492225</span></code></pre></td></tr></table></div></figure></notextile></div>
 Так же, твиттер получив мою заявку через неделю благославил на использование их twitter cards.
 Теперь твиты ссылающиеся на мой уютненький отображаються вот в таком, расширенном виде:
-<img class="center" src="https://dl.dropboxusercontent.com/u/89057283/post/twitter-card.png" width="450"></p>
+<img class="center" src="http://img.naydenov.tk/post/twitter-card.png" width="450"></p>
 
 <h3>Страницы обо мне, резюме, фильмотека и книжня</h3>
 
-<p><img class="right" src="https://dl.dropboxusercontent.com/u/89057283/post/page-on-different-screens.gif" title="Различия отображения на разных экранах." >
+<p><img class="right" src="http://img.naydenov.tk/post/page-on-different-screens.gif" title="Различия отображения на разных экранах." >
 Ещё появилась страничка <a href="http://naydenov.tk/about/">обо мне</a> в стилистике гугл+; <a href="http://naydenov.tk/cv/">CV</a>;      <br/>
 в ответ на вопрос "Что посмотреть?" появилась <a href="http://naydenov.tk/filmoteka/">таблица Фильмотека</a>;    <br/>
 за несколько выходных вечеров появилась <a href="http://naydenov.tk/books">Книжня</a> (грязный код), аддаптивный под разные экраны, список самых-самых книг из прочитанного. Она явилась подготовительным знакомством с аддаптивными таблицами представления данных, а после присутсвия на докладе Вадима Макеева "Flexbox, теперь понятно" убедился, что поддержка флексбокса браузерами уже на хорошем уровне и учитывая скорость его готовки, имеет смысл его использовать.</p>
